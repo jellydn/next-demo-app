@@ -2256,10 +2256,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next-validations@0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.1.7.tgz#684411fd83c26baad082f341818a822e14ae0284"
-  integrity sha512-CRtAgjMhtkzc3UuHCrOBCyMUx6HDTrpfcHRddqbWCX85LyKw8rNU9bNQ66EiBflNnqGP4YJHkQ7eHtTzdiU8MQ==
+next-validations@0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.1.8.tgz#1a96d8a68eb47d2a2b21800ca05cf87476aa6e60"
+  integrity sha512-cLnHCj5YpF8iQaCeP7R094bSDV8VH8lc/6DZJ7os0m4IulmPTlN+nQ+mMxfjfTUfSaw1QLqrnuPAqT4abe3LnQ==
 
 next@10.2.0:
   version "10.2.0"
