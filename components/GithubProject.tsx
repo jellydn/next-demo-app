@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-
+import Image from "next/image";
 export interface GithubProject {
   id: number;
   node_id: string;
@@ -104,9 +104,11 @@ export interface Owner {
   type: string;
   site_admin: boolean;
 }
+
 type ProjectListProps = {
   username: string;
 };
+
 export const ProjectList = ({ username }: ProjectListProps) => {
   const { isLoading, isError, error, data } = useQuery<Array<GithubProject>>(
     ["projects", username],
@@ -159,9 +161,11 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                     <td className="px-6 py-3 text-left">
                       <div className="flex items-center">
                         <div className="mr-2">
-                          <img
-                            className="w-6 h-6 rounded-full"
-                            src="https://randomuser.me/api/portraits/men/1.jpg"
+                          <Image
+                            src={project.owner.avatar_url}
+                            width="24"
+                            height="24"
+                            className="rounded-full"
                           />
                         </div>
                         <span>{project.full_name}</span>
