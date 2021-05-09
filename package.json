@@ -23,10 +23,11 @@
   },
   "devDependencies": {
     "@hookform/devtools": "3.0.2",
+    "@next/eslint-plugin-next": "^10.2.1-canary.3",
     "@types/react": "17.0.5",
     "autoprefixer": "10.2.5",
     "eslint": "^7.26.0",
-    "eslint-config-next": "^0.2.4",
+    "eslint-config-next": "^10.2.1-canary.3",
     "eslint-config-prettier": "^8.3.0",
     "husky": ">=6",
     "lint-staged": ">=10",
@@ -37,7 +38,7 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "eslint --cache --fix",
+      "eslint --fix",
       "prettier --write"
     ],
     "*.{css,json,md,yml,yaml}": [
