@@ -9,6 +9,8 @@ import type { NextApiRequest, NextApiResponse } from "next";
  *       200:
  *         description: hello world
  */
-export default (req: NextApiRequest, res: NextApiResponse) => {
+const handler = (_req: NextApiRequest, res: NextApiResponse) => {
   res.status(200).json({ name: "hello world" });
 };
+
+export default handler;
