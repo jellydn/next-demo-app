@@ -15,9 +15,11 @@ function Header({}: Props): ReactElement {
           </a>
         </Link>
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto">
-          <Link href="/api-doc">
-            <a className="mr-5 hover:text-gray-900">API Doc</a>
-          </Link>
+          {process.env.NODE_ENV === "development" && (
+            <Link href="/api-doc">
+              <a className="mr-5 hover:text-gray-900">API Doc</a>
+            </Link>
+          )}
           <Link href="/projects">
             <a className="mr-5 hover:text-gray-900">Projects</a>
           </Link>
