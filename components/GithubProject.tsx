@@ -1,5 +1,7 @@
 import { useQuery } from "react-query";
 import Image from "next/image";
+import Link from "next/link";
+
 export interface GithubProject {
   id: number;
   node_id: string;
@@ -155,7 +157,9 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                   >
                     <td className="px-6 py-3 text-left whitespace-nowrap">
                       <div className="flex items-center">
-                        <span className="font-medium">{project.name}</span>
+                        <Link href={project.git_url}>
+                          <a className="font-medium">{project.name}</a>
+                        </Link>
                       </div>
                     </td>
                     <td className="px-6 py-3 text-left">
