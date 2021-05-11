@@ -11,7 +11,7 @@ const Footer = (props: Props) => {
           <Image src="/logo.png" width="30" height="30" />
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">
-          © 2020 ProductsWay —
+          © {new Date().getFullYear()} ProductsWay —
           <a
             href="https://twitter.com/jellydn"
             className="ml-1 text-gray-600"
