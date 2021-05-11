@@ -27,6 +27,14 @@ yarn install
 
 ## Usage
 
+Create `.env.local` file from `.env.example` and
+use your [personal access tokens](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#using-personal-access-tokens)
+
+```env
+# Refer https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
+GITHUB_TOKEN=Your_Oath_Token
+```
+
 ```sh
 yarn dev
 ```
