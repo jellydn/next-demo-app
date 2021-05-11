@@ -72,7 +72,7 @@ const Projects = () => {
               </div>
             </form>{" "}
           </div>
-          <DevTool control={control} />
+          <DevTool control={control} placement="top-left" />
         </div>
       </div>
       {username && <ProjectList username={username} />}
