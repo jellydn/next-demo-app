@@ -24,7 +24,7 @@ export async function getGithubUserRepositories(username: string, limit = 10) {
     {
       method: "GET",
       headers: {
-        Authorization: process.env.GITHUB_TOKEN,
+        Authorization: `token ${process.env.GITHUB_TOKEN}`,
       },
     }
   );
