@@ -17,7 +17,7 @@ export async function getGithubUser(username: string) {
   }
 }
 
-export async function getGithubUserRepos(username: string, limit = 5) {
+export async function getGithubUserRepositories(username: string, limit = 10) {
   // https://api.github.com/users/{USERNAME}/repos
   const response = await fetch(
     `${GITHUB_URL}/users/${username}/repos?per_page=${limit}`,

@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 import { withValidation } from "next-validations";
 import * as yup from "yup";
-import { getGithubUserRepos } from "../../services/github";
+import { getGithubUserRepositories } from "../../services/github";
 
 const schema = yup.object().shape({
   username: yup.string().min(3).required(),
@@ -18,7 +18,7 @@ const validate = withValidation({
  * @swagger
  * /api/profile:
  *   get:
- *     description: Returns John Doe
+ *     description: Returns 10 projects base on github username
  *     parameters:
  *       - name: username
  *         description: Github username
@@ -27,13 +27,15 @@ const validate = withValidation({
  *         type: string
  *     responses:
  *       200:
- *         description: John Doe
+ *         description: Return 10 projects from github username
  *       400:
  *         description: Username is required and min 3 characters
  */
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
-    const responses = await getGithubUserRepos(String(req.query.username));
+    const responses = await getGithubUserRepositories(
+      String(req.query.username)
+    );
     res.status(200).json(responses);
   } catch (error) {
     const { response } = error;
