@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Header />
       <div className="min-h-3/4-vh">
         <QueryClientProvider client={queryClient}>
-          <Component {...pageProps} />;
+          <Component {...pageProps} />
           <ReactQueryDevtools initialIsOpen={true} />
         </QueryClientProvider>
       </div>
