@@ -135,6 +135,10 @@ export const ProjectList = ({ username }: ProjectListProps) => {
     return <p role="alert">{(error as Error).message}</p>;
   }
 
+  if (data.length === 0) {
+    return <p role="alert">No data.</p>;
+  }
+
   return (
     <div className="flex items-center justify-center mt-4 overflow-hidden font-sans min-w-screen">
       <div className="w-full">
