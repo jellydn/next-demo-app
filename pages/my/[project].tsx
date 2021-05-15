@@ -58,17 +58,24 @@ export const getStaticProps: GetStaticProps<{
 }> = async (ctx) => {
   const { params } = ctx;
 
-  const repo = await getGithubUserRepository(
-    process.env.NEXT_PUBLIC_GITHUB_USERNAME,
-    params.project as string
-  );
+  try {
+    const repo = await getGithubUserRepository(
+      process.env.NEXT_PUBLIC_GITHUB_USERNAME,
+      params.project as string
+    );
 
-  return {
-    props: {
-      repo,
-    },
-    revalidate: 1,
-  };
+    return {
+      props: {
+        repo,
+      },
+      revalidate: 1,
+    };
+  } catch (error) {
+    console.error(error);
+    return {
+      notFound: true,
+    };
+  }
 };
 
 export async function getStaticPaths() {
