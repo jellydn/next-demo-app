@@ -4,9 +4,11 @@ export async function getGithubUser(username: string) {
   // https://api.github.com/users/{USERNAME}
   const response = await fetch(`${GITHUB_URL}/users/${username}`, {
     method: "GET",
-    headers: {
-      Authorization: `token ${process.env.GITHUB_TOKEN}`,
-    },
+    headers: process.env.GITHUB_TOKEN
+      ? {
+          Authorization: `token ${process.env.GITHUB_TOKEN}`,
+        }
+      : {},
   });
   if (response.ok) {
     return response.json();
@@ -23,9 +25,11 @@ export async function getGithubUserRepositories(username: string, limit = 10) {
     `${GITHUB_URL}/users/${username}/repos?per_page=${limit}`,
     {
       method: "GET",
-      headers: {
-        Authorization: `token ${process.env.GITHUB_TOKEN}`,
-      },
+      headers: process.env.GITHUB_TOKEN
+        ? {
+            Authorization: `token ${process.env.GITHUB_TOKEN}`,
+          }
+        : {},
     }
   );
   if (response.ok) {
