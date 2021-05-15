@@ -1,4 +1,5 @@
 import { GetStaticProps, InferGetStaticPropsType } from "next";
+import { useRouter } from "next/router";
 import { GithubProject } from "../../components/types";
 
 import {
@@ -9,6 +10,12 @@ import {
 const MyProjects = ({
   repo,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const router = useRouter();
+
+  if (router.isFallback) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <section className="pb-32 text-gray-700 bg-gray-500">
       <div className="p-8 text-3xl text-center text-white title md:text-5xl ">
@@ -60,6 +67,7 @@ export const getStaticProps: GetStaticProps<{
     props: {
       repo,
     },
+    revalidate: 1,
   };
 };
 
@@ -69,7 +77,7 @@ export async function getStaticPaths() {
   );
   return {
     paths: repositories.map((project) => "/my/" + project.name),
-    fallback: false,
+    fallback: true,
   };
 }
 
