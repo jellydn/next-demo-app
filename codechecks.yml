@@ -1,0 +1,12 @@
+checks:
+  - name: build-size-watcher
+    options:
+      gzip: false
+      files:
+        - path: "./.next/**/*.d.ts"
+        - path: "./.next/**/*.js"
+        - path: "./.next/**/*.json"
+        - path: "./.next/**/*.css"
+settings:
+  branches:
+    - main

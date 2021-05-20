@@ -11,6 +11,7 @@ jobs:
       - name: yar
         run: |
           yarn install
+          yarn build
           npx codechecks
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}
