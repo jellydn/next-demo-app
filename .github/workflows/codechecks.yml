@@ -1,15 +1,16 @@
-on: push
 name: Mainflow
+on:
+  push:
+    branches: [master, main]
 jobs:
   build-and-codechecks:
     name: build and run codechecks
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: yarn
+      - name: yar
         run: |
           yarn install
-
           npx codechecks
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}
