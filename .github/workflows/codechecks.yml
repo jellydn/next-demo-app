@@ -1,4 +1,4 @@
-name: Mainflow
+name: Check build size
 on:
   push:
     branches: [master, main]
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: yar
+      - name: yarn install and build
         run: |
           yarn install
           yarn build
