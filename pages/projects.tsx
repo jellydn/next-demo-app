@@ -7,7 +7,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { ErrorMessage } from "@hookform/error-message";
 import * as yup from "yup";
 
-import ProjectList from "../components/GithubProject";
+import ProjectList from "../components/ProjectList";
 
 type FormValues = {
   username: string;
