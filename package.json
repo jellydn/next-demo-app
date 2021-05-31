@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@hookform/error-message": "2.0.0",
-    "@hookform/resolvers": "2.5.1",
+    "@hookform/resolvers": "2.5.2",
     "next": "10.2.3",
     "next-swagger-doc": "0.1.5",
     "next-validations": "0.1.8",
