@@ -3406,10 +3406,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-swagger-doc@0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/next-swagger-doc/-/next-swagger-doc-0.1.5.tgz#f191bbe0b4e2cba102760751c2f5e49a19be8d18"
-  integrity sha512-t8V0wjmpIg6Zakp95OZKQaPAVdE5EeuF/dv50/efAavkacJenSQrsTEegQ6/SHwfsHwxoeeUFBBInkh8E1RZEQ==
+next-swagger-doc@0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/next-swagger-doc/-/next-swagger-doc-0.1.7.tgz#3f6eca1265a0dc9ad315b488376b8198bbe8ebe6"
+  integrity sha512-a3oAx9dTc5mbol+K4XPgZELrQXz324qSUDYAhx7GwIY6dc+KcasgTP6Z3Evp16Rng14Az7L/vkK+/mCFaDW2SA==
   dependencies:
     swagger-jsdoc "^6.1.0"
 
