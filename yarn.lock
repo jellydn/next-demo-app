@@ -161,7 +161,7 @@
   resolved "https://registry.yarnpkg.com/@braintree/sanitize-url/-/sanitize-url-5.0.2.tgz#b23080fa35520e993a8a37a0f5bca26aa4650a48"
   integrity sha512-NBEJlHWrhQucLhZGHtSxM2loSaNUMajC7KOYJLyfcdW/6goVoff2HoYI3bz8YCDN0wKGbxtUL0gx2dvHpvnWlw==
 
-"@codechecks/build-size-watcher@^0.1.0":
+"@codechecks/build-size-watcher@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@codechecks/build-size-watcher/-/build-size-watcher-0.1.0.tgz#fb823b6eafb116c154e263d4ac39f3893607f8af"
   integrity sha512-3tACk1kDSfdvs75e8jCRt0prk38c4urdoej6Kx/Ebj61rKO+uNdv8Jz4f7TLexzTAEwMW1VnkqtsSIt2ob4PHA==
