@@ -2296,11 +2296,6 @@ fault@^1.0.0:
   dependencies:
     format "^0.2.0"
 
-fetch-blob@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-2.1.2.tgz#a7805db1361bd44c1ef62bb57fb5fe8ea173ef3c"
-  integrity sha512-YKqtUDwqLyfyMnmbw8XD6Q8j9i/HggKtPEI+pZ1+8bvheBu78biSmNaXWusx1TauGqtUUGx/cBb1mKdq2rLYow==
-
 figures@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
@@ -2374,15 +2369,10 @@ forever-agent@~0.6.1:
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
   integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
 
-form-data-encoder@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-1.4.0.tgz#41ce230b45a923543ffbf521d42170e026f6a09a"
-  integrity sha512-H54s9sqy0YkwaTtiPjce9GmmpVCuM9gu09lx4hkEBna2zmEBwVUz8XCpoIC2lhTuM9grpNgUc4AiBXScDffMOQ==
-
-form-data-encoder@^1.0.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-1.4.1.tgz#4cda5f893426f2cb5f3c730b83984d181403e866"
-  integrity sha512-fP/K+x6Y7dRcB39JRxoomw4oo6MGOGAGiidX+q5tp98SMdlANqrgKhr5KbRMa7/nxFpTHiwNs3VxNaW5g+DfuA==
+form-data-encoder@^1.4.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/form-data-encoder/-/form-data-encoder-1.5.3.tgz#3ca2a892e6734cbccc54ee34926b397a2fe6e23b"
+  integrity sha512-TBXL4jWdTERP1oNLXCXEJYgBfA5dBbhGVvS6E9bvAl48gu4L1q+JQYnPfixEyemGewRUeCRRXLUOEdtRfE2FKQ==
 
 form-data@~2.3.2:
   version "2.3.3"
@@ -2398,14 +2388,13 @@ format@^0.2.0:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-formdata-node@^3.6.2:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/formdata-node/-/formdata-node-3.6.3.tgz#d074cc048a347dd5bceb2448ec8aaf65f3636bb4"
-  integrity sha512-1kuwXsWIgTV9k5hL6i2cW5KOuQqmbkOMqYMw2XB+WRKBVq/RFMJvu/8qc3fjPFcBImBIGkSwIJim1JbAZVOFuQ==
+formdata-node@^4.0.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/formdata-node/-/formdata-node-4.2.1.tgz#0b20e680aef7574217ebd7a32dce0ea6e2996620"
+  integrity sha512-mYFfryf+E+r/zaYFWuouQEBbtjyJQql4hTDEVvUt9RexwCEzjj23pkVxAcwQDuFMftpf3MQhcbqp6FysWwN/tQ==
   dependencies:
-    fetch-blob "2.1.2"
-    form-data-encoder "1.4.0"
     node-domexception "1.0.0"
+    web-streams-polyfill "4.0.0-beta.1"
 
 fraction.js@^4.1.1:
   version "4.1.1"
@@ -4486,10 +4475,10 @@ react-simple-animate@^3.3.12:
   resolved "https://registry.yarnpkg.com/react-simple-animate/-/react-simple-animate-3.3.12.tgz#ddea0f230feb3c1f069fbdb0a26e735e0b233265"
   integrity sha512-lFXjxD6ficcpOMsHfcDs1jqdkCve6jNlJnubOCzVOLswFDRANsaLN4KwpezDuliEFz8Q1zyj4J7Tmj3KMRnPcg==
 
-react-syntax-highlighter@^15.4.3:
-  version "15.4.3"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.4.3.tgz#fffe3286677ac470b963b364916d16374996f3a6"
-  integrity sha512-TnhGgZKXr5o8a63uYdRTzeb8ijJOgRGe0qjrE0eK/gajtdyqnSO6LqB3vW16hHB0cFierYSoy/AOJw8z1Dui8g==
+react-syntax-highlighter@^15.4.4:
+  version "15.4.4"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.4.4.tgz#dc9043f19e7bd063ff3ea78986d22a6eaa943b2a"
+  integrity sha512-PsOFHNTzkb3OroXdoR897eKN5EZ6grht1iM+f1lJSq7/L0YVnkJaNVwC3wEUYPOAmeyl5xyer1DjL6MrumO6Zw==
   dependencies:
     "@babel/runtime" "^7.3.1"
     highlight.js "^10.4.1"
@@ -5224,10 +5213,10 @@ supports-hyperlinks@^1.0.1:
     has-flag "^2.0.0"
     supports-color "^5.0.0"
 
-swagger-client@^3.15.0:
-  version "3.15.0"
-  resolved "https://registry.yarnpkg.com/swagger-client/-/swagger-client-3.15.0.tgz#ba9de5830a8baf40ec5a867e815fa4588d974fa3"
-  integrity sha512-8Ki4bVbT+bl8hGmy3vR89wktZhVLXKNUk8CoUvfwn7Rq45bZ15c9UQXVr4VU6hP3f9diWJGJs0bKZR9pPOq4ZA==
+swagger-client@^3.16.1:
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/swagger-client/-/swagger-client-3.16.1.tgz#df86c9d407ab52c00cb356e714b0ec732bb3ad40"
+  integrity sha512-BcNRQzXHRGuXfhN0f80ptlr+bSaPvXwo8+gWbpmTnbKdAjcWOKAWwUx7rgGHjTKZh0qROr/GX9xOZIY8LrBuTg==
   dependencies:
     "@babel/runtime-corejs3" "^7.11.2"
     btoa "^1.2.1"
@@ -5236,10 +5225,10 @@ swagger-client@^3.15.0:
     cross-fetch "^3.1.4"
     deep-extend "~0.6.0"
     fast-json-patch "^3.0.0-1"
-    form-data-encoder "^1.0.1"
-    formdata-node "^3.6.2"
+    form-data-encoder "^1.4.3"
+    formdata-node "^4.0.0"
     js-yaml "^4.1.0"
-    lodash "^4.17.19"
+    lodash "^4.17.21"
     qs "^6.9.4"
     querystring-browser "^1.0.4"
     traverse "~0.6.6"
@@ -5264,10 +5253,10 @@ swagger-parser@10.0.2:
   dependencies:
     "@apidevtools/swagger-parser" "10.0.2"
 
-swagger-ui-react@3.52.0:
-  version "3.52.0"
-  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-3.52.0.tgz#edf85fed58d55677fc49807ff7d67e43e2d5bf44"
-  integrity sha512-JBw2Omif7i8pFIW8PHsoHZDXhn1LhiPmzxl6NRYGaoCxKDi+HQAQthvZ3piJbDQ8vS3EjtlVh7lkBn/RtrkPww==
+swagger-ui-react@3.52.2:
+  version "3.52.2"
+  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-3.52.2.tgz#f0b4e9e7bf5ca763867d6c978e7343cee1a98e2d"
+  integrity sha512-TMGf+HEQGtELafdT2Zp7F9EGF1WPqkYb5kVdEi2+Q9C8pF265XCPPXXt16sU4NOPB9JoRZc+YDtA1PQ7BmPSIA==
   dependencies:
     "@babel/runtime-corejs3" "^7.14.7"
     "@braintree/sanitize-url" "^5.0.2"
@@ -5293,15 +5282,15 @@ swagger-ui-react@3.52.0:
     react-inspector "^2.3.0"
     react-motion "^0.5.2"
     react-redux "=4.4.10"
-    react-syntax-highlighter "^15.4.3"
+    react-syntax-highlighter "^15.4.4"
     redux "=3.7.2"
     redux-immutable "3.1.0"
     remarkable "^2.0.1"
     reselect "^4.0.0"
     serialize-error "^8.1.0"
     sha.js "^2.4.11"
-    swagger-client "^3.15.0"
-    url-parse "^1.5.1"
+    swagger-client "^3.16.1"
+    url-parse "^1.5.2"
     xml-but-prettier "^1.0.1"
     zenscroll "^4.0.2"
 
@@ -5595,10 +5584,10 @@ url-join@^4.0.0:
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
   integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
 
-url-parse@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
-  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
+url-parse@^1.5.2:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
@@ -5705,6 +5694,11 @@ watchpack@2.1.1:
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
+
+web-streams-polyfill@4.0.0-beta.1:
+  version "4.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/web-streams-polyfill/-/web-streams-polyfill-4.0.0-beta.1.tgz#3b19b9817374b7cee06d374ba7eeb3aeb80e8c95"
+  integrity sha512-3ux37gEX670UUphBF9AMCq8XM6iQ8Ac6A+DSRRjDoRBm1ufCkaCDdNVbaqq60PsEkdNlLKrGtv/YBP4EJXqNtQ==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
