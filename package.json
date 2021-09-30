@@ -26,7 +26,7 @@
     "@codechecks/client": "0.1.11",
     "@hookform/devtools": "4.0.1",
     "@next/eslint-plugin-next": "11.1.2",
-    "@types/react": "17.0.25",
+    "@types/react": "17.0.26",
     "autoprefixer": "10.3.6",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
