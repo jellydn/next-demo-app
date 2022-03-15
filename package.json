@@ -24,7 +24,7 @@
   "devDependencies": {
     "@codechecks/build-size-watcher": "0.1.0",
     "@codechecks/client": "0.1.12",
-    "@hookform/devtools": "4.0.1",
+    "@hookform/devtools": "4.0.2",
     "@next/eslint-plugin-next": "11.1.2",
     "@types/react": "17.0.26",
     "autoprefixer": "10.4.2",
