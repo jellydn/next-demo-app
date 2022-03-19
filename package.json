@@ -27,7 +27,7 @@
     "@hookform/devtools": "4.0.2",
     "@next/eslint-plugin-next": "12.1.0",
     "@types/node": "16.11.26",
-    "@types/react": "17.0.40",
+    "@types/react": "17.0.41",
     "autoprefixer": "10.4.3",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
