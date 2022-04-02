@@ -18,7 +18,7 @@
     "react-dom": "18.0.0",
     "react-hook-form": "7.29.0",
     "react-query": "3.34.19",
-    "swagger-ui-react": "4.8.1",
+    "swagger-ui-react": "4.10.3",
     "yup": "0.32.11"
   },
   "devDependencies": {
