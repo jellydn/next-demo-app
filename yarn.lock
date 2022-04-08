@@ -3064,10 +3064,10 @@ next-swagger-doc@0.2.1:
     isarray "^2.0.5"
     swagger-jsdoc "^6.1.0"
 
-next-validations@0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.1.11.tgz#fcc62dea5be8f9793d410de175f96e3fc1dac54d"
-  integrity sha512-rdyRgZ3f3jwhLigdi9MC5R74BvRpB3cewa8LVnMHDiDRnSThvX0CdZ5KHK4t/SgrIGaVXiXOQ59KtvBqjcm5pA==
+next-validations@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.2.0.tgz#ce3c4bc332b115beda633521fd81e587987864eb"
+  integrity sha512-QMF2hRNSSbjeBaCYqpt3mEM9CkXXzaMCWCvPyi5/vKTBjbgkiYtaQnUfjj5eH8dX+ZmRrBYGgN1EKqL7ZnI0wQ==
 
 next@12.1.4:
   version "12.1.4"
