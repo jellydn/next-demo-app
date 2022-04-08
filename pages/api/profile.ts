@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
-
 import { withValidation } from "next-validations";
 import * as yup from "yup";
+
 import { getGithubUserRepositories } from "../../services/github";
 
 const schema = yup.object().shape({

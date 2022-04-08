@@ -1,6 +1,6 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
-import Project from "../../../components/Project";
 
+import Project from "../../../components/Project";
 import { getGithubUserRepository } from "../../../services/github";
 import { GithubProject } from "../../../services/types";
 

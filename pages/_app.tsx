@@ -1,11 +1,9 @@
 import { AppProps } from "next/app";
-
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
-import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import Header from "../components/Header";
 import "../styles/globals.css";
 
 const queryClient = new QueryClient();
@@ -15,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Header />
       <div className="min-h-3/4-vh">
+        {/* @ts-expect-error Type error: Type '{ children: Element[]; client: QueryClient; }' is not assignable to type 'IntrinsicAttributes & QueryClientProviderProps'. */}
         <QueryClientProvider client={queryClient}>
           <Component {...pageProps} />
           <ReactQueryDevtools initialIsOpen={true} />

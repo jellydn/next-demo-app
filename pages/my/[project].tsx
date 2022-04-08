@@ -3,7 +3,6 @@ import { GetStaticProps, InferGetStaticPropsType } from "next";
 import { useRouter } from "next/router";
 
 import Project from "../../components/Project";
-
 import {
   getGithubUserRepositories,
   getGithubUserRepository,

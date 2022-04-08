@@ -18,7 +18,7 @@
     "react-dom": "18.0.0",
     "react-hook-form": "7.29.0",
     "react-query": "3.34.19",
-    "swagger-ui-react": "4.8.1",
+    "swagger-ui-react": "4.10.3",
     "yup": "0.32.11"
   },
   "devDependencies": {
@@ -26,8 +26,9 @@
     "@codechecks/client": "0.1.12",
     "@hookform/devtools": "4.1.0",
     "@next/eslint-plugin-next": "12.1.4",
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/node": "16.11.26",
-    "@types/react": "17.0.43",
+    "@types/react": "18.0.0",
     "autoprefixer": "10.4.4",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
@@ -35,7 +36,7 @@
     "husky": "7.0.4",
     "lint-staged": "12.3.7",
     "postcss": "8.4.12",
-    "prettier": "2.6.2",
+    "prettier": "^2.6.2",
     "tailwindcss": "3.0.23",
     "typescript": "4.6.3"
   },
@@ -47,5 +48,15 @@
     "*.{css,json,md,yml,yaml}": [
       "prettier --write"
     ]
+  },
+  "prettier": {
+    "importOrder": [
+      "^@core/(.*)$",
+      "^@server/(.*)$",
+      "^@ui/(.*)$",
+      "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
   }
 }

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useQuery } from "react-query";
+
 import ProjectList from "../components/ProjectList";
 import styles from "../styles/Home.module.css";
 
