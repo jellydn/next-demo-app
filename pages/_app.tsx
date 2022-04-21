@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Header />
       <div className="min-h-3/4-vh">
-        {/* @ts-expect-error Type error: Type '{ children: Element[]; client: QueryClient; }' is not assignable to type 'IntrinsicAttributes & QueryClientProviderProps'. */}
         <QueryClientProvider client={queryClient}>
           <Component {...pageProps} />
           <ReactQueryDevtools initialIsOpen={true} />
