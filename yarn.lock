@@ -1234,6 +1234,14 @@ clean-stack@^2.0.0:
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
 
+cleye@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/cleye/-/cleye-1.2.0.tgz#ab6479ad1364e959bc87746579bbe556496d9761"
+  integrity sha512-91phRUNIHDJz+DDKsJQP5t0a82/PGaxpzbhbU+l6qJFRd35u0f0SCpovxWtWhYe6QGfypuj5E4e7k0U7/DRHtw==
+  dependencies:
+    terminal-columns "^1.4.1"
+    type-flag "^2.1.0"
+
 cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
@@ -3033,11 +3041,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-swagger-doc@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/next-swagger-doc/-/next-swagger-doc-0.3.1.tgz#d4712b686b85f12f5e3104a3af8308f0dfbefbe4"
-  integrity sha512-572tcu6PMl5D1i0W7k5kKaHdj8W74dXZZKXO9QbBNw8IZxfot7nuxVro7rhzCyT+xYcq+x47W0N2Ej6/cLx8bA==
+next-swagger-doc@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/next-swagger-doc/-/next-swagger-doc-0.3.2.tgz#a0de05a5b69d46c334314778c3fc616adddc7a79"
+  integrity sha512-1CHdYB+CeYXwjAE0C39u00m1Of1ZlyKu/SY/hXjBJw0qnu3f2DziwmuI6+eMj2nrgBEA0OoqF9Bd+VxVYhJ1ag==
   dependencies:
+    cleye "1.2.0"
     isarray "2.0.5"
     swagger-jsdoc "6.2.1"
 
@@ -4254,6 +4263,11 @@ tailwindcss@3.0.24:
     quick-lru "^5.1.1"
     resolve "^1.22.0"
 
+terminal-columns@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/terminal-columns/-/terminal-columns-1.4.1.tgz#f669dd878afaad0c404d4b7aa01855fb6f24f1a4"
+  integrity sha512-IKVL/itiMy947XWVv4IHV7a0KQXvKjj4ptbi7Ew9MPMcOLzkiQeyx3Gyvh62hKrfJ0RZc4M1nbhzjNM39Kyujw==
+
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -4390,6 +4404,11 @@ type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
+
+type-flag@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/type-flag/-/type-flag-2.1.0.tgz#9d3c7c84804032d4e03b4877a866c25c122c1136"
+  integrity sha512-ln8u/BdNzppXeFP8JsmsofElwVC2/FYoQAIipzhx45jjFwSApFqIieBEY93TKoLpphQBAbazX8LCoIY59Vwxlg==
 
 typescript@4.6.4:
   version "4.6.4"
