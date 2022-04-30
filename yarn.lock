@@ -3041,10 +3041,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-swagger-doc@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/next-swagger-doc/-/next-swagger-doc-0.3.2.tgz#a0de05a5b69d46c334314778c3fc616adddc7a79"
-  integrity sha512-1CHdYB+CeYXwjAE0C39u00m1Of1ZlyKu/SY/hXjBJw0qnu3f2DziwmuI6+eMj2nrgBEA0OoqF9Bd+VxVYhJ1ag==
+next-swagger-doc@0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/next-swagger-doc/-/next-swagger-doc-0.3.4.tgz#6f4e23f23af3ed14e223285809be4a29f61cea7c"
+  integrity sha512-HhMzSlcos+MmvxEE09qgTz7QI5sYIQ1LRNSKcQ306k7UTiADtOB+UK/b5nRqr5Le3rxsP1fF8LfA+RHRbdUqhg==
   dependencies:
     cleye "1.2.0"
     isarray "2.0.5"
