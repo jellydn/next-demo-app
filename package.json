@@ -12,7 +12,7 @@
     "@hookform/error-message": "2.0.0",
     "@hookform/resolvers": "2.8.8",
     "next": "12.1.5",
-    "next-swagger-doc": "0.3.0",
+    "next-swagger-doc": "0.3.1",
     "next-validations": "0.2.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
