@@ -5,6 +5,8 @@
 
 > Real example app with nextjs
 
+[![NextJS Mini Course](https://img.youtube.com/vi/CwjySicuyGQ/0.jpg)](https://www.youtube.com/watch?v=CwjySicuyGQ)
+
 ### 🏠 [Homepage](https://github.com/jellydn/next-demo-app)
 
 ### ✨ [Demo](https://next-demo-app.productsway.com/)
