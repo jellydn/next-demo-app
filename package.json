@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@hookform/error-message": "2.0.0",
-    "@hookform/resolvers": "2.9.0",
+    "@hookform/resolvers": "2.9.7",
     "@tailwindcss/typography": "^0.5.2",
     "daisyui": "^2.15.2",
     "next": "12.1.6",
