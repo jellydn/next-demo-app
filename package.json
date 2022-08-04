@@ -28,7 +28,7 @@
     "@codechecks/client": "0.1.12",
     "@hookform/devtools": "4.1.0",
     "@next/eslint-plugin-next": "12.1.6",
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "@trivago/prettier-plugin-sort-imports": "3.3.0",
     "@types/node": "16.11.47",
     "@types/react": "18.0.15",
     "autoprefixer": "10.4.8",
