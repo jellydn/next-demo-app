@@ -15,7 +15,7 @@ const ProjectName = (
   return (
     <div className="container mx-auto">
       <Project repo={props.repo} />
-      {flags?.["github-comment"] && (
+      {flags?.["github-comment"] ? (
         <Giscus
           id="comments"
           repo="jellydn/next-demo-app"
@@ -31,7 +31,7 @@ const ProjectName = (
           lang="en"
           loading="lazy"
         />
-      )}
+      ) : null}
     </div>
   );
 };
