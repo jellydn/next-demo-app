@@ -18,7 +18,8 @@
 - Data fetching (API integration) https://react-query.tanstack.com/
 - API Validations, with Yup and
   https://github.com/jellydn/next-validations
-
+- Feature Flags for Next.js https://github.com/happykit/flags
+- Component library for giscus, a comments system powered by GitHub Discussions https://github.com/giscus/giscus-component
 - Generates an OpenAPI (Swagger) specification by https://github.com/jellydn/next-swagger-doc
 
 ## Install
