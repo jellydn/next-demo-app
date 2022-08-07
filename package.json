@@ -9,6 +9,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@giscus/react": "^2.2.0",
+    "@happykit/analytics": "^1.0.1",
+    "@happykit/flags": "^2.0.6",
     "@hookform/error-message": "2.0.0",
     "@hookform/resolvers": "2.9.7",
     "@tailwindcss/typography": "0.5.4",
