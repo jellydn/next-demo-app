@@ -11,6 +11,12 @@
 
 ### ✨ [Demo](https://next-demo-app.productsway.com/)
 
+![https://gyazo.com/9bb9244a3ca6af3595082908ee8d9d17.gif](https://gyazo.com/9bb9244a3ca6af3595082908ee8d9d17.gif)
+
+On/Off comment with happykit
+
+![https://gyazo.com/6173708c854e02b1ca785a2830bc1144.gif](https://gyazo.com/6173708c854e02b1ca785a2830bc1144.gif)
+
 ## Features
 
 - Styling by https://tailwindcss.com/
