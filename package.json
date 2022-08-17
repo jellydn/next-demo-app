@@ -15,7 +15,7 @@
     "@hookform/error-message": "2.0.0",
     "@hookform/resolvers": "2.9.7",
     "@tailwindcss/typography": "0.5.4",
-    "daisyui": "2.22.0",
+    "daisyui": "2.24.0",
     "next": "12.2.4",
     "next-swagger-doc": "0.3.6",
     "next-validations": "0.2.1",
