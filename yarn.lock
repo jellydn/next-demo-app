@@ -605,19 +605,19 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@giscus/react@^2.2.0":
+"@giscus/react@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@giscus/react/-/react-2.2.0.tgz#b5fcec12ea19ecbf832d44996346f21a0ae50621"
   integrity sha512-MXjKAQyO85ZdC8OVApNQsJhPvTJcuUf5GmQw2KdvNcBVivUpVrA+NUppdwsrI+lK6jEX4ZMVOCnbJ5GaQddaAA==
   dependencies:
     giscus "^1.2.0"
 
-"@happykit/analytics@^1.0.1":
+"@happykit/analytics@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@happykit/analytics/-/analytics-1.0.1.tgz#6dcc8ec33684766ff11e56a07ed686f8f1a8febc"
   integrity sha512-yA0XHxDrfFqjD0R2mKQHsHvJlesoXno7795XbcI7WMDFBnZ02Y/ai5ZyVu17PP4B82pmpOa8zftSYizgtXzAhg==
 
-"@happykit/flags@^2.0.6":
+"@happykit/flags@2.0.6":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@happykit/flags/-/flags-2.0.6.tgz#5f2ba6053fd998ec35a6f0bf90dd1c658ef32734"
   integrity sha512-DYEESPYW+FZ24V54F4Ro5p7x1M/eoqC3Eio6dJfc0rynRwTT6FCRkFT7KuZBEQlf5Mcg5I1lewA5b2kBZdmawQ==
@@ -4443,7 +4443,7 @@ sha.js@^2.4.11:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-sharp@^0.30.7:
+sharp@0.30.7:
   version "0.30.7"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.30.7.tgz#7862bda98804fdd1f0d5659c85e3324b90d94c7c"
   integrity sha512-G+MY2YW33jgflKPTXXptVO28HvNOo9G3j0MybYAHeEmby+QuD2U98dT6ueht9cv/XDqZspSpIhoSW+BAKJ7Hig==
