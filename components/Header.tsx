@@ -18,7 +18,7 @@ function Header({}: Props): ReactElement {
       <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
         <Link href="/">
           <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
-            <Image width="30" height="30" src="/logo.png" />
+            <Image alt="logo" width="30" height="30" src="/logo.png" />
             <span className="ml-3 text-xl">Next Demo App</span>
           </a>
         </Link>

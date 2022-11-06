@@ -8,7 +8,7 @@ const Footer = (props: Props) => {
     <footer className="text-gray-600 body-font">
       <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
         <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
-          <Image src="/logo.png" width="30" height="30" />
+          <Image alt="logo" src="/logo.png" width="30" height="30" />
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">
           © {new Date().getFullYear()} ProductsWay —

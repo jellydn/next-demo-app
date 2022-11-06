@@ -19,10 +19,10 @@ export const ProjectList = ({ username }: ProjectListProps) => {
         }
         const result = await response.json();
         const error = new Error(
-          result.message || response.statusText || "Unknown error"
+          result.message || response.statusText || "Unknown error",
         );
         throw error;
-      })
+      }),
   );
 
   if (isLoading) {
@@ -68,6 +68,7 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                       <div className="flex items-center">
                         <div className="mr-2">
                           <Image
+                            alt={project.name}
                             src={project.owner.avatar_url}
                             width="24"
                             height="24"

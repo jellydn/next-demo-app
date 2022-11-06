@@ -2,6 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
+[![fork with dotenv-vault](https://badge.dotenv.org/fork.svg?r=1)](https://vault.dotenv.org/project/vlt_a5bfe9e2ab26c857be636137675b81be14bb55fc55fc1bde19ec45db936eb468/example)
 
 > Real example app with nextjs
 
