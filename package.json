@@ -9,7 +9,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@giscus/react": "2.2.3",
+    "@giscus/react": "2.2.4",
     "@happykit/analytics": "1.0.1",
     "@happykit/flags": "2.0.7",
     "@hookform/error-message": "2.0.1",
