@@ -32,7 +32,7 @@
     "@codechecks/client": "0.1.12",
     "@hookform/devtools": "4.2.3",
     "@next/eslint-plugin-next": "13.0.5",
-    "@trivago/prettier-plugin-sort-imports": "3.4.0",
+    "@trivago/prettier-plugin-sort-imports": "4.0.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "autoprefixer": "10.4.13",
