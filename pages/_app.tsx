@@ -28,4 +28,18 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
+async function initProxy() {
+  const projectKey = "clarmtri8006xfqfnpj7viuoy";
+  if (typeof window !== "undefined") {
+    const { setupWorker } = await import("@apihero/browser");
+    //update the allow list with the APIs you're using
+    await setupWorker({
+      allow: ["https://api.github.com/*"],
+      projectKey,
+      env: process.env.NODE_ENV,
+    }).start();
+  }
+}
+initProxy();
+
 export default MyApp;

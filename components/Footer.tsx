@@ -6,11 +6,11 @@ interface Props {}
 const Footer = (props: Props) => {
   return (
     <footer className="text-gray-600 body-font">
-      <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
-        <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
+      <div className="container flex flex-col items-center py-8 px-5 mx-auto sm:flex-row">
+        <a className="flex justify-center items-center font-medium text-gray-900 md:justify-start title-font">
           <Image alt="logo" src="/logo.png" width="30" height="30" />
         </a>
-        <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">
+        <p className="mt-4 text-sm text-gray-500 sm:py-2 sm:pl-4 sm:mt-0 sm:ml-4 sm:border-l-2 sm:border-gray-200">
           © {new Date().getFullYear()} ProductsWay —
           <a
             href="https://twitter.com/jellydn"
@@ -21,7 +21,7 @@ const Footer = (props: Props) => {
             @jellydn
           </a>
         </p>
-        <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
+        <span className="inline-flex justify-center mt-4 sm:justify-start sm:mt-0 sm:ml-auto">
           <a className="text-gray-500">
             <svg
               fill="currentColor"

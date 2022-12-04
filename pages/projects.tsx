@@ -33,29 +33,29 @@ const Projects = () => {
   };
 
   return (
-    <div className="container flex flex-col items-center justify-center mx-auto">
+    <div className="container flex flex-col justify-center items-center mx-auto">
       <div
         style={{
           backgroundImage:
             "url(https://images.unsplash.com/photo-1538582709238-0a503bd5ae04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)",
         }}
-        className="w-full h-64 max-w-5xl bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
+        className="w-full max-w-5xl h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
       ></div>
-      <div className="-mt-24 overflow-hidden bg-white rounded-lg shadow-md">
-        <div className="items-center justify-between px-5 py-10 mx-auto text-center bg-white rounded-lg shadow-2xl">
+      <div className="overflow-hidden -mt-24 bg-white rounded-lg shadow-md">
+        <div className="justify-between items-center py-10 px-5 mx-auto text-center bg-white rounded-lg shadow-2xl">
           <div className="px-2 -mt-6">
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="text-center">
-                <h1 className="w-full my-3 text-3xl font-medium leading-loose text-grey-800">
+                <h1 className="my-3 w-full text-3xl font-medium leading-loose text-grey-800">
                   Get Projects Information
                 </h1>
                 <div className="w-full text-center">
-                  <div className="flex items-center max-w-sm p-1 pr-0 mx-auto">
+                  <div className="flex items-center p-1 pr-0 mx-auto max-w-sm">
                     <input
                       type="text"
                       {...register("username")}
                       placeholder="Your github profile"
-                      className="flex-1 p-3 mr-2 rounded shadow appearance-none text-grey-dark focus:outline-none"
+                      className="flex-1 p-3 mr-2 rounded shadow appearance-none focus:outline-none text-grey-dark"
                     />
                     <button
                       type="submit"

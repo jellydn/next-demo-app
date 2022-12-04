@@ -38,16 +38,16 @@ export const ProjectList = ({ username }: ProjectListProps) => {
   }
 
   return (
-    <div className="flex items-center justify-center mt-4 overflow-hidden font-sans min-w-screen">
+    <div className="flex overflow-hidden justify-center items-center mt-4 font-sans min-w-screen">
       <div className="w-full">
         <div className="bg-white rounded shadow-md">
-          <table className="w-full table-auto min-w-max">
+          <table className="w-full min-w-max table-auto">
             <thead>
               <tr className="text-sm leading-normal text-gray-600 uppercase bg-gray-200">
-                <th className="px-6 py-3 text-left">Project</th>
-                <th className="px-6 py-3 text-left">Name</th>
-                <th className="px-6 py-3 text-center">Open Issue</th>
-                <th className="px-6 py-3 text-center">Actions</th>
+                <th className="py-3 px-6 text-left">Project</th>
+                <th className="py-3 px-6 text-left">Name</th>
+                <th className="py-3 px-6 text-center">Open Issue</th>
+                <th className="py-3 px-6 text-center">Actions</th>
               </tr>
             </thead>
             <tbody className="text-sm font-light text-gray-600">
@@ -57,14 +57,14 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                     key={project.id}
                     className="border-b border-gray-200 hover:bg-gray-100"
                   >
-                    <td className="px-6 py-3 text-left whitespace-nowrap">
+                    <td className="py-3 px-6 text-left whitespace-nowrap">
                       <div className="flex items-center">
-                        <Link href={project.git_url}>
-                          <a className="font-medium">{project.name}</a>
+                        <Link href={project.git_url} className="font-medium">
+                          {project.name}
                         </Link>
                       </div>
                     </td>
-                    <td className="px-6 py-3 text-left">
+                    <td className="py-3 px-6 text-left">
                       <div className="flex items-center">
                         <div className="mr-2">
                           <Image
@@ -78,15 +78,15 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                         <span>{project.full_name}</span>
                       </div>
                     </td>
-                    <td className="px-6 py-3 text-center">
-                      <span className="px-3 py-1 text-xs text-purple-600 bg-purple-200 rounded-full">
+                    <td className="py-3 px-6 text-center">
+                      <span className="py-1 px-3 text-xs text-purple-600 bg-purple-200 rounded-full">
                         {project.open_issues_count} issues
                       </span>
                     </td>
-                    <td className="px-6 py-3 text-center">
+                    <td className="py-3 px-6 text-center">
                       <div className="flex justify-center item-center">
-                        <div className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
-                          <Link href={`/projects/${project.full_name}`}>
+                        <div className="mr-2 w-4 transform hover:text-purple-500 hover:scale-110">
+                          <Link href={`/projects/${project.full_name}`} legacyBehavior>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
@@ -108,7 +108,7 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                             </svg>
                           </Link>
                         </div>
-                        <div className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                        <div className="mr-2 w-4 transform hover:text-purple-500 hover:scale-110">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"

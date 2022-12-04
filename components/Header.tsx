@@ -16,20 +16,22 @@ function Header({}: Props): ReactElement {
         ></script>
       </Head>
       <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
-        <Link href="/">
-          <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
-            <Image alt="logo" width="30" height="30" src="/logo.png" />
-            <span className="ml-3 text-xl">Next Demo App</span>
-          </a>
+        <Link
+          href="/"
+          className="flex items-center mb-4 font-medium text-gray-900 md:mb-0 title-font">
+
+          <Image alt="logo" width="30" height="30" src="/logo.png" />
+          <span className="ml-3 text-xl">Next Demo App</span>
+
         </Link>
-        <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto">
+        <nav className="flex flex-wrap justify-center items-center text-base md:mr-auto md:ml-auto">
           {process.env.NODE_ENV === "development" && (
-            <Link href="/api-doc">
-              <a className="mr-5 hover:text-gray-900">API Doc</a>
+            <Link href="/api-doc" className="mr-5 hover:text-gray-900">
+              API Doc
             </Link>
           )}
-          <Link href="/projects">
-            <a className="mr-5 hover:text-gray-900">Projects</a>
+          <Link href="/projects" className="mr-5 hover:text-gray-900">
+            Projects
           </Link>
         </nav>
         <a href="https://vercel.com/new/git/external?repository-url=https://github.com/jellydn/next-demo-app/">
