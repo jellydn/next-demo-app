@@ -401,10 +401,10 @@
   dependencies:
     nanoid "3.2.0"
 
-"@hookform/devtools@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@hookform/devtools/-/devtools-4.3.0.tgz#2f4a71e9376d37c3fc7a3e8f1e7b6f30e69a496d"
-  integrity sha512-DTTTYJ9j+L4Nd/qj0k41WNbRF/qNQfZxbHwUupFeQWu6JOJ5Ak5ksxuoCbfSWrsXV5EPSmcfhpsDos0IOlwhsg==
+"@hookform/devtools@4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@hookform/devtools/-/devtools-4.3.1.tgz#5df1b77ea12b4f1c220da3d2dba737f81cbb12bc"
+  integrity sha512-CrWxEoHQZaOXJZVQ8KBgOuAa8p2LI8M0DAN5GTRTmdCieRwFVjVDEmuTAVazWVRRkpEQSgSt3KYp7VmmqXdEnw==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@emotion/styled" "^11.3.0"
@@ -2207,10 +2207,10 @@ eslint-config-next@13.2.3:
     eslint-plugin-react "^7.31.7"
     eslint-plugin-react-hooks "^4.5.0"
 
-eslint-config-prettier@8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz#dec1d29ab728f4fa63061774e1672ac4e363d207"
-  integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
+eslint-config-prettier@8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
+  integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
 
 eslint-import-resolver-node@^0.3.6, eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -4582,10 +4582,10 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-hook-form@7.43.4:
-  version "7.43.4"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.43.4.tgz#32c12cce916e2ba50178148a5ef5acffeaae2a3e"
-  integrity sha512-JZp05wvmuV8qr3NNDWwyhiQL05sh9E8x/2NoWtkdiyyiezmwOr5pKexlvbCEfBMa7ZYrvzk88G/uhLl47T9b7Q==
+react-hook-form@7.43.5:
+  version "7.43.5"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.43.5.tgz#b320405594f1506d8d57b954383166d4ff563778"
+  integrity sha512-YcaXhuFHoOPipu5pC7ckxrLrialiOcU91pKu8P+isAcXZyMgByUK9PkI9j5fENO4+6XU5PwWXRGMIFlk9u9UBQ==
 
 react-immutable-proptypes@2.2.0:
   version "2.2.0"
@@ -5320,10 +5320,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-swagger-client@=3.19.0-beta.8:
-  version "3.19.0-beta.8"
-  resolved "https://registry.yarnpkg.com/swagger-client/-/swagger-client-3.19.0-beta.8.tgz#86639e3d8704a305ab66109bfacae29c6bdbe411"
-  integrity sha512-idGYcLsr5p3yLRPSRsLRpjWKM8exb5lb28f9xjwZpBUGWo5rgQydWLcPRPTdwxxr5lMvuWXFIKowJ69EvpfUsw==
+swagger-client@^3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/swagger-client/-/swagger-client-3.19.0.tgz#c091667253735fedf8584db897578bc250003061"
+  integrity sha512-qpmxroj7fuXNSx4Ha720iyoXcUrfS7GRZfUpjuOp6Z85EIbaLcV+8Pf4s5j2ZgX4qPeVgTMApG8KpzGk1Wu68Q==
   dependencies:
     "@babel/runtime-corejs3" "^7.20.13"
     "@swagger-api/apidom-core" "=0.69.0"
@@ -5362,10 +5362,10 @@ swagger-parser@10.0.2:
   dependencies:
     "@apidevtools/swagger-parser" "10.0.2"
 
-swagger-ui-react@4.17.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-4.17.0.tgz#bed8caa0412bb0b7ac719b806c64c116202dd1f1"
-  integrity sha512-vecFFlXqpn8I1TE6d7kewNZbDSI8VNLyTv21dhMlGwFZfRLRkuXr/lTIZ9MBHeYsrUZuJYbszQ3BVS1nydiggg==
+swagger-ui-react@4.17.1:
+  version "4.17.1"
+  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-4.17.1.tgz#7db679471d93800e69a6f5c4a4254ed88494d7f2"
+  integrity sha512-y2dXQjwPoKfEqcmCrflMOj5EfIvY+Tkuwsyu2/LJTG82AsMJILzYzLc8vlAZRLsbVxl26Jq1Cqhc1O/umf2gsg==
   dependencies:
     "@babel/runtime-corejs3" "^7.18.9"
     "@braintree/sanitize-url" "=6.0.2"
@@ -5396,7 +5396,7 @@ swagger-ui-react@4.17.0:
     reselect "^4.1.5"
     serialize-error "^8.1.0"
     sha.js "^2.4.11"
-    swagger-client "=3.19.0-beta.8"
+    swagger-client "^3.19.0"
     url-parse "^1.5.8"
     xml "=1.0.1"
     xml-but-prettier "^1.0.1"
