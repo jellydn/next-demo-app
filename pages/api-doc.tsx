@@ -5,8 +5,8 @@ const SwaggerUI = dynamic<{ url: string }>(import("swagger-ui-react"), {
   ssr: false,
 });
 
-const ApiDoc = () => {
+function ApiDoc() {
   return <SwaggerUI url="/api/doc" />;
-};
+}
 
 export default ApiDoc;

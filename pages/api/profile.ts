@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { type NextApiRequest, type NextApiResponse } from "next";
 import { withValidation } from "next-validations";
 import * as yup from "yup";
 
@@ -38,10 +38,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     );
     res.status(200).json(responses);
   } catch (error) {
-    const { response } = error;
-    return response
-      ? res.status(response.status).json({ message: response.statusText })
-      : res.status(400).json({ message: error.message });
+    res.status(400).json(error);
   }
 };
 

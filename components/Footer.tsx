@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-interface Props {}
+type Props = Record<string, unknown>
 
-const Footer = (props: Props) => {
+function Footer(props: Props) {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container flex flex-col items-center py-8 px-5 mx-auto sm:flex-row">
@@ -81,6 +81,6 @@ const Footer = (props: Props) => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

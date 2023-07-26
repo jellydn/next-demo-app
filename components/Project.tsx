@@ -1,9 +1,9 @@
-import React, { ReactElement } from "react";
+import React, { type ReactElement } from "react";
 
-import { GithubProject } from "../services/types";
+import { type GithubProject } from "../services/types";
 
-interface Props {
-  repo: GithubProject;
+type Props = {
+  readonly repo: GithubProject;
 }
 
 function Project({ repo }: Props): ReactElement {

@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import React, { ReactElement } from "react";
+import React, { type ReactElement } from "react";
 
-interface Props {}
 
-function Header({}: Props): ReactElement {
+function Header(): ReactElement {
   return (
     <header className="text-gray-600 body-font">
       <Head>
@@ -13,7 +12,7 @@ function Header({}: Props): ReactElement {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5337133458846513"
           crossOrigin="anonymous"
-        ></script>
+         />
       </Head>
       <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
         <Link

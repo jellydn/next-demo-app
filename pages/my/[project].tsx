@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
-import { GetStaticProps, InferGetStaticPropsType } from "next";
+ 
+import { type GetStaticProps, type InferGetStaticPropsType } from "next";
 import { useRouter } from "next/router";
 
 import Project from "../../components/Project";
@@ -7,18 +7,18 @@ import {
   getGithubUserRepositories,
   getGithubUserRepository,
 } from "../../services/github";
-import { GithubProject } from "../../services/types";
+import { type GithubProject } from "../../services/types";
 
-const MyProject = ({
+function MyProject({
   repo,
-}: InferGetStaticPropsType<typeof getStaticProps>) => {
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter();
   if (router.isFallback) {
     return <p>Loading...</p>;
   }
 
   return <Project repo={repo} />;
-};
+}
 
 export async function getStaticPaths() {
   const repositories = await getGithubUserRepositories(
@@ -37,7 +37,7 @@ export const getStaticProps: GetStaticProps<{
     const { params } = ctx;
     const repo = await getGithubUserRepository(
       process.env.NEXT_PUBLIC_GITHUB_USERNAME,
-      params.project as string
+      params?.project as unknown as string
     );
 
     return {

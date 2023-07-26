@@ -3,25 +3,22 @@ import Link from "next/link";
 
 import { useQuery } from "react-query";
 
-import { GithubProject } from "../services/types";
+import { type GithubProject } from "../services/types";
 
 type ProjectListProps = {
-  username: string;
+  readonly username?: string;
 };
 
-export const ProjectList = ({ username }: ProjectListProps) => {
-  const { isLoading, isError, error, data } = useQuery<Array<GithubProject>>(
+export function ProjectList({ username }: ProjectListProps) {
+  const { isLoading, isError, error, data } = useQuery<GithubProject[]>(
     ["projects", username],
-    () =>
+    async () =>
       fetch(`/api/profile?username=${username}`).then(async (response) => {
         if (response.ok) {
           return response.json();
         }
-        const result = await response.json();
-        const error = new Error(
-          result.message || response.statusText || "Unknown error",
-        );
-        throw error;
+
+        throw new Error(await response.text());
       }),
   );
 
@@ -33,7 +30,7 @@ export const ProjectList = ({ username }: ProjectListProps) => {
     return <p role="alert">{(error as Error).message}</p>;
   }
 
-  if (data.length === 0) {
+  if (data?.length === 0) {
     return <p role="alert">No data.</p>;
   }
 
@@ -51,8 +48,7 @@ export const ProjectList = ({ username }: ProjectListProps) => {
               </tr>
             </thead>
             <tbody className="text-sm font-light text-gray-600">
-              {data.map((project) => {
-                return (
+              {data?.map((project) => (
                   <tr
                     key={project.id}
                     className="border-b border-gray-200 hover:bg-gray-100"
@@ -86,7 +82,7 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                     <td className="py-3 px-6 text-center">
                       <div className="flex justify-center item-center">
                         <div className="mr-2 w-4 transform hover:text-purple-500 hover:scale-110">
-                          <Link href={`/projects/${project.full_name}`} legacyBehavior>
+                          <Link legacyBehavior href={`/projects/${project.full_name}`}>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
@@ -126,14 +122,13 @@ export const ProjectList = ({ username }: ProjectListProps) => {
                       </div>
                     </td>
                   </tr>
-                );
-              })}
+                ))}
             </tbody>
           </table>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default ProjectList;

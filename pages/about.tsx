@@ -1,15 +1,11 @@
-import { GetStaticProps } from "next";
+import { type GetStaticProps } from "next";
 
-const about = () => {
-  return <div>About page</div>;
-};
+const about = () => <div>About page</div>;
 
-export const getStaticProps: GetStaticProps = async (ctx) => {
-  return {
+export const getStaticProps: GetStaticProps = async (ctx) => ({
     props: {
       data: null,
     },
-  };
-};
+  });
 
 export default about;

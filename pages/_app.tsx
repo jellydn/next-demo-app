@@ -1,5 +1,5 @@
 import { useAnalytics } from "@happykit/analytics";
-import { AppProps } from "next/app";
+import { type AppProps } from "next/app";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div className="min-h-3/4-vh">
         <QueryClientProvider client={queryClient}>
           <Component {...pageProps} />
-          <ReactQueryDevtools initialIsOpen={true} />
+          <ReactQueryDevtools initialIsOpen />
         </QueryClientProvider>
       </div>
       <Footer />
@@ -32,7 +32,7 @@ async function initProxy() {
   const projectKey = "clarmtri8006xfqfnpj7viuoy";
   if (typeof window !== "undefined") {
     const { setupWorker } = await import("@apihero/browser");
-    //update the allow list with the APIs you're using
+    // Update the allow list with the APIs you're using
     await setupWorker({
       allow: ["https://api.github.com/*"],
       projectKey,
@@ -40,6 +40,7 @@ async function initProxy() {
     }).start();
   }
 }
-initProxy();
+
+initProxy().catch(console.error);
 
 export default MyApp;

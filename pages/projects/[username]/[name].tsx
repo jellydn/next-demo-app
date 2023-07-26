@@ -1,15 +1,13 @@
 import Giscus from "@giscus/react";
 import { useFlags } from "@happykit/flags/client";
-import { GetServerSideProps, InferGetServerSidePropsType } from "next";
+import { type GetServerSideProps, type InferGetServerSidePropsType } from "next";
 
 import Project from "../../../components/Project";
-import { AppFlags } from "../../../flags.config";
+import { type AppFlags } from "../../../flags.config";
 import { getGithubUserRepository } from "../../../services/github";
-import { GithubProject } from "../../../services/types";
+import { type GithubProject } from "../../../services/types";
 
-const ProjectName = (
-  props: InferGetServerSidePropsType<typeof getServerSideProps>
-) => {
+function ProjectName(props: InferGetServerSidePropsType<typeof getServerSideProps>) {
   const { flags } = useFlags<AppFlags>();
 
   return (
@@ -34,7 +32,7 @@ const ProjectName = (
       ) : null}
     </div>
   );
-};
+}
 
 export const getServerSideProps: GetServerSideProps<{
   repo: GithubProject;
