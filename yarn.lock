@@ -1945,10 +1945,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
-daisyui@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-3.7.0.tgz#a23d4800fb835509744d2ca8202b44ad3476c2f8"
-  integrity sha512-W5o8+RxrW0xpK0VQF9tSjQ9b9D9JcWQxXXM2QujVBG02fIEYLg1jC28wM2LG4W3I+388nMUnFwmu3N6crSHlhg==
+daisyui@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-3.7.3.tgz#247cfefa0112c31679af9035eff65e1bd866f062"
+  integrity sha512-gKlz3RwfaukZxf8nQZsDAZ7quUSi7F8HjGGB34tkHruvfQB9cgVDQsmqUqSQtkAJYvzbrg/3dLUa9+5jF4iC1A==
   dependencies:
     colord "^2.9"
     css-selector-tokenizer "^0.8"
