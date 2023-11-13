@@ -2026,10 +2026,10 @@ culori@^3:
   resolved "https://registry.yarnpkg.com/culori/-/culori-3.2.0.tgz#df6561503f0cc20e8e1c029f086466666c0ac62f"
   integrity sha512-HIEbTSP7vs1mPq/2P9In6QyFE0Tkpevh0k9a+FkjhD+cwsYm9WRSbn4uMdW9O0yXlNYC3ppxL3gWWPOcvEl57w==
 
-daisyui@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-4.0.1.tgz#ca0128bb6e9de547a95f20f0dc4bfb1208800338"
-  integrity sha512-ImgJOvcWjcK7jepOeP3T/WQZQ/kRF2YCwQPGIjto5URjdMhcr1xOctOZUz50/CYlAI2nYKJ1Y3r+Iznk0hMFCA==
+daisyui@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-4.0.3.tgz#2d63e9eae8aa0f06736ad25240aca712a064b60f"
+  integrity sha512-mG6PsdIA6MEHzdJwBlJxc1rqsIAAlcfhj2O8g0ol1uWg5y6C5zTcqfG8vKBqK4y2YfCxGIVgMsMWRTSm32N1Ow==
   dependencies:
     css-selector-tokenizer "^0.8"
     culori "^3"
@@ -4581,10 +4581,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
-  integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
+prettier@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.0.tgz#c6d16474a5f764ea1a4a373c593b779697744d5e"
+  integrity sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==
 
 prismjs@^1.27.0:
   version "1.29.0"
@@ -5530,10 +5530,10 @@ swagger-parser@^10.0.3:
   dependencies:
     "@apidevtools/swagger-parser" "10.0.3"
 
-swagger-ui-react@5.9.3:
-  version "5.9.3"
-  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-5.9.3.tgz#8da415015b9b8588da1a8d3962812134af8dd038"
-  integrity sha512-4jVjVpbhn3EgAgOkKUiQcwZAlUsvX+2NXSY8c15MQ7iiBkwep0pC9i3I/4yw1DSmX5FSrqJZ4e0l7TI6ePdDiw==
+swagger-ui-react@5.9.4:
+  version "5.9.4"
+  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-5.9.4.tgz#6f51b51d3f7e60492b8cb23c2fb3342613b8bb7c"
+  integrity sha512-VEY+QuNtRkidR/Os81zq22TpbXkfFDJ2pB6UF+J5sgrf2zksPr2oQGADpWn6RkYXXudZcalXUjcUqgx8WgIfaA==
   dependencies:
     "@babel/runtime-corejs3" "^7.23.2"
     "@braintree/sanitize-url" "=6.0.4"
