@@ -7,9 +7,13 @@ jobs:
     name: build and run codechecks
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: yarn install and build
         run: |
+          corepack enable
+          yarn set version stable
           yarn install
           yarn build
           npx codechecks
