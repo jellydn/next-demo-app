@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import ProjectList from "../components/ProjectList";
+import ProjectList from "@/components/ProjectList";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {

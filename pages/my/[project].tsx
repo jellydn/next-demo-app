@@ -1,17 +1,14 @@
- 
 import { type GetStaticProps, type InferGetStaticPropsType } from "next";
 import { useRouter } from "next/router";
 
-import Project from "../../components/Project";
+import Project from "@/components/Project";
 import {
   getGithubUserRepositories,
   getGithubUserRepository,
-} from "../../services/github";
-import { type GithubProject } from "../../services/types";
+} from "@/services/github";
+import { type GithubProject } from "@/services/types";
 
-function MyProject({
-  repo,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+function MyProject({ repo }: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter();
   if (router.isFallback) {
     return <p>Loading...</p>;
@@ -22,7 +19,7 @@ function MyProject({
 
 export async function getStaticPaths() {
   const repositories = await getGithubUserRepositories(
-    process.env.NEXT_PUBLIC_GITHUB_USERNAME
+    process.env.NEXT_PUBLIC_GITHUB_USERNAME,
   );
   return {
     paths: repositories.map((project) => `/my/${project.name}`),
@@ -37,7 +34,7 @@ export const getStaticProps: GetStaticProps<{
     const { params } = ctx;
     const repo = await getGithubUserRepository(
       process.env.NEXT_PUBLIC_GITHUB_USERNAME,
-      params?.project as unknown as string
+      params?.project as unknown as string,
     );
 
     return {

@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 
-import ProjectList from "../components/ProjectList";
+import ProjectList from "@/components/ProjectList";
 
 type FormValues = {
   username: string;
@@ -40,7 +40,7 @@ function Projects() {
             "url(https://images.unsplash.com/photo-1538582709238-0a503bd5ae04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)",
         }}
         className="w-full max-w-5xl h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"
-       />
+      />
       <div className="overflow-hidden -mt-24 bg-white rounded-lg shadow-md">
         <div className="justify-between items-center py-10 px-5 mx-auto text-center bg-white rounded-lg shadow-2xl">
           <div className="px-2 -mt-6">
@@ -80,9 +80,9 @@ function Projects() {
 }
 
 export const getStaticProps: GetStaticProps = async (ctx) => ({
-    props: {
-      data: null,
-    },
-  });
+  props: {
+    data: null,
+  },
+});
 
 export default Projects;
