@@ -2,5 +2,8 @@
   "extends": [
     "productsway/react",
     "plugin:@next/next/recommended"
+  ],
+  "ignorePatterns": [
+    "next.config.js"
   ]
 }

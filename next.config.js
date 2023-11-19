@@ -1,10 +1,18 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    domains: ["avatars.githubusercontent.com"],
+    remotePatterns: [
+      {
+        hostname: "avatars.githubusercontent.com",
+      },
+      {
+        hostname: "vercel.com",
+      },
+    ],
   },
   transpilePackages: [
-    'swagger-ui-react',
-    'swagger-client',
-    'react-syntax-highlighter',
+    "swagger-ui-react",
+    "swagger-client",
+    "react-syntax-highlighter",
   ],
 };
