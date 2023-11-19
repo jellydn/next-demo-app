@@ -527,15 +527,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happykit/flags@npm:2.0.7":
-  version: 2.0.7
-  resolution: "@happykit/flags@npm:2.0.7"
+"@happykit/flags@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@happykit/flags@npm:3.3.0"
   dependencies:
     nanoid: "npm:3.2.0"
   peerDependencies:
     next: ">=12.0.2"
     react: ">=16.13.1"
-  checksum: e361cb1aeed7b6a21426736976cd848497d5d2a071910d6532071757fbc919345a46fab15ffb1a99a9b6dbb610820417c2ccf0105bb4115c4b97e0206f1d85e0
+  checksum: 696af4f15e51b82f14caf7802b3bebbb62fd01fdbb92167cfcc553d5a51df830cd979e29a996b103c05f7492ff4e70d1b194cf27f2e053d6ae64e62828a550aa
   languageName: node
   linkType: hard
 
@@ -5716,7 +5716,7 @@ __metadata:
     "@codechecks/client": "npm:0.1.12"
     "@giscus/react": "npm:2.3.0"
     "@happykit/analytics": "npm:1.0.1"
-    "@happykit/flags": "npm:2.0.7"
+    "@happykit/flags": "npm:3.3.0"
     "@hookform/devtools": "npm:4.3.1"
     "@hookform/error-message": "npm:2.0.1"
     "@hookform/resolvers": "npm:3.3.2"
