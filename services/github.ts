@@ -17,12 +17,11 @@ export async function getGithubUser(username?: string) {
   }
 
   throw new Error(response.statusText);
-
 }
 
 export async function getGithubUserRepositories(
   username?: string,
-  limit = 10
+  limit = 10,
 ): Promise<GithubProject[]> {
   // https://api.github.com/users/{USERNAME}/repos
   const response = await fetch(
@@ -34,19 +33,18 @@ export async function getGithubUserRepositories(
           Authorization: `token ${process.env.GITHUB_TOKEN}`,
         }
         : {},
-    }
+    },
   );
   if (response.ok) {
     return response.json();
   }
 
   throw new Error(response.statusText);
-
 }
 
 export async function getGithubUserRepository(
   username?: string,
-  projectName?: string
+  projectName?: string,
 ): Promise<GithubProject> {
   // https://api.github.com/repos/{USERNAME}/{NAME}
   const response = await fetch(
@@ -58,12 +56,11 @@ export async function getGithubUserRepository(
           Authorization: `token ${process.env.GITHUB_TOKEN}`,
         }
         : {},
-    }
+    },
   );
   if (response.ok) {
     return response.json();
   }
-
 
   throw new Error(response.statusText);
 }

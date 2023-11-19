@@ -25,7 +25,7 @@ export async function getStaticPaths() {
     process.env.NEXT_PUBLIC_GITHUB_USERNAME
   );
   return {
-    paths: repositories.map((project) => "/my/" + project.name),
+    paths: repositories.map((project) => `/my/${project.name}`),
     fallback: true,
   };
 }

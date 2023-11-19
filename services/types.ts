@@ -1,4 +1,4 @@
-export interface GithubProject {
+export type GithubProject = {
   id: number;
   node_id: string;
   name: string;
@@ -6,7 +6,7 @@ export interface GithubProject {
   private: boolean;
   owner: Owner;
   html_url: string;
-  description: null | string;
+  description: undefined | string;
   fork: boolean;
   url: string;
   forks_url: string;
@@ -52,37 +52,37 @@ export interface GithubProject {
   ssh_url: string;
   clone_url: string;
   svn_url: string;
-  homepage: null | string;
+  homepage: undefined | string;
   size: number;
   stargazers_count: number;
   watchers_count: number;
-  language: null | string;
+  language: undefined | string;
   has_issues: boolean;
   has_projects: boolean;
   has_downloads: boolean;
   has_wiki: boolean;
   has_pages: boolean;
   forks_count: number;
-  mirror_url: null;
+  mirror_url: undefined;
   archived: boolean;
   disabled: boolean;
   open_issues_count: number;
-  license: License | null;
+  license: License | undefined;
   forks: number;
   open_issues: number;
   watchers: number;
   default_branch: string;
-}
+};
 
-export interface License {
+export type License = {
   key: string;
   name: string;
   spdx_id: string;
   url: string;
   node_id: string;
-}
+};
 
-export interface Owner {
+export type Owner = {
   login: string;
   id: number;
   node_id: string;
@@ -101,4 +101,4 @@ export interface Owner {
   received_events_url: string;
   type: string;
   site_admin: boolean;
-}
+};

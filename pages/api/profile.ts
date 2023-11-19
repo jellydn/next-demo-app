@@ -34,7 +34,7 @@ const validate = withValidation({
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const responses = await getGithubUserRepositories(
-      String(req.query.username)
+      String(req.query.username),
     );
     res.status(200).json(responses);
   } catch (error) {

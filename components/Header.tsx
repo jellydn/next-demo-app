@@ -33,9 +33,9 @@ function Header(): ReactElement {
             Projects
           </Link>
         </nav>
-        <a href="https://vercel.com/new/git/external?repository-url=https://github.com/jellydn/next-demo-app/">
+        <Link href="https://vercel.com/new/git/external?repository-url=https://github.com/jellydn/next-demo-app/">
           <img src="https://vercel.com/button" alt="Deploy with Vercel" />
-        </a>
+        </Link>
       </div>
     </header>
   );

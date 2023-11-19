@@ -1,6 +1,7 @@
 import React, { type ReactElement } from "react";
 
 import { type GithubProject } from "../services/types";
+import Image from "next/image";
 
 type Props = {
   readonly repo: GithubProject;
@@ -16,10 +17,12 @@ function Project({ repo }: Props): ReactElement {
       </div>
       <div className="flex flex-wrap justify-center">
         <div className="flex flex-col flex-1 items-center p-8 mx-8 mb-8 bg-white rounded shadow-lg sm:flex-initial md:mb-0 md:w-1/3">
-          <img
+          <Image
             src={repo.owner.avatar_url}
             className="w-32 h-32 rounded-full"
-            alt=""
+            width={128}
+            height={128}
+            alt={repo.owner.login}
           />
           <h1 className="my-4 text-4xl text-indigo-500">Description</h1>
           <p className="px-8 mb-8 text-justify">{repo.description}</p>
