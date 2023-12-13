@@ -42,7 +42,7 @@
 		"next-validations": "0.4.2",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-hook-form": "7.49.1",
+		"react-hook-form": "7.49.2",
 		"react-query": "3.39.3",
 		"sharp": "0.33.0",
 		"swagger-ui-react": "5.10.3",
