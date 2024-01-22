@@ -1626,11 +1626,11 @@ __metadata:
   linkType: hard
 
 "@types/ramda@npm:~0.29.6":
-  version: 0.29.9
-  resolution: "@types/ramda@npm:0.29.9"
+  version: 0.29.10
+  resolution: "@types/ramda@npm:0.29.10"
   dependencies:
-    types-ramda: "npm:^0.29.6"
-  checksum: 9f4204afaa8f8f6d69e0e461287fb1a26df44e9b521c093905cf2b35862d82f54f1b6ed08db467275e471bd758b75f1b1e96c21a29a5c388f1f3a40bd7cb739f
+    types-ramda: "npm:^0.29.7"
+  checksum: 3aaa75e172a75ad4f236a348cd26c15ff80e71111c9d6e434e0c9acff71f5c9485ff41c6b62fb77bcca771c0942c6443e9fc46b611363c3d867f83a8d856301a
   languageName: node
   linkType: hard
 
@@ -8578,7 +8578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"types-ramda@npm:^0.29.6":
+"types-ramda@npm:^0.29.7":
   version: 0.29.7
   resolution: "types-ramda@npm:0.29.7"
   dependencies:
