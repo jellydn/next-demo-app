@@ -45,7 +45,7 @@
 		"react-hook-form": "7.50.1",
 		"react-query": "3.39.3",
 		"sharp": "0.33.2",
-		"swagger-ui-react": "5.11.6",
+		"swagger-ui-react": "5.11.7",
 		"yup": "1.3.3"
 	},
 	"devDependencies": {
