@@ -507,13 +507,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/busboy@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "@fastify/busboy@npm:2.1.0"
-  checksum: 10c0/7bb641080aac7cf01d88749ad331af10ba9ec3713ec07cabbe833908c75df21bd56249bb6173bdec07f5a41896b21e3689316f86684c06635da45f91ff4565a2
-  languageName: node
-  linkType: hard
-
 "@giscus/react@npm:2.4.0":
   version: 2.4.0
   resolution: "@giscus/react@npm:2.4.0"
@@ -1633,14 +1626,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.57":
-  version: 18.2.57
-  resolution: "@types/react@npm:18.2.57"
+"@types/react@npm:18.2.58":
+  version: 18.2.58
+  resolution: "@types/react@npm:18.2.58"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/d5ed2f04c069c591e41ef1bea5b70f89dc7a4edff2254c4df801ddaa21b43b2aa70c106c049b9b6736f98f5afe66576d0e75a9e47c7044f2660b1744ff64f535
+  checksum: 10c0/80145b707b780d682092b51d520f58a0171c4067ff36cf488d3346d92b715b27fd334acd0fabb8eb21a4eb6c4061f1535e8bfa6642a7f4025e63ebec868fb6d1
   languageName: node
   linkType: hard
 
@@ -3107,10 +3100,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:=3.0.8":
-  version: 3.0.8
-  resolution: "dompurify@npm:3.0.8"
-  checksum: 10c0/e89e03d3dbd99abd64cd90705ce2cdfbc60ee9726ee53f9860e8a2d91b828ef2c173e7031529f9a3aa169ad0fbb76115c6a6683b545bf1ac5d94cc6176fb2a50
+"dompurify@npm:=3.0.9":
+  version: 3.0.9
+  resolution: "dompurify@npm:3.0.9"
+  checksum: 10c0/4da4b86e4010822d01392e25f0686367a4f1e1048a4681178c725de9a817410c5650c17b326c08a018f79437b3177a4bdc7faf4c37b0cf2547bc280aa2038a16
   languageName: node
   linkType: hard
 
@@ -5990,7 +5983,7 @@ __metadata:
     "@tailwindcss/typography": "npm:0.5.10"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
     "@types/node": "npm:20.11.20"
-    "@types/react": "npm:18.2.57"
+    "@types/react": "npm:18.2.58"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.17"
@@ -6011,7 +6004,7 @@ __metadata:
     react-hook-form: "npm:7.50.1"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.2"
-    swagger-ui-react: "npm:5.11.7"
+    swagger-ui-react: "npm:5.11.8"
     tailwindcss: "npm:3.4.1"
     typescript: "npm:5.3.3"
     yup: "npm:1.3.3"
@@ -6139,7 +6132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch-commonjs@npm:^3.3.1":
+"node-fetch-commonjs@npm:^3.3.2":
   version: 3.3.2
   resolution: "node-fetch-commonjs@npm:3.3.2"
   dependencies:
@@ -8153,9 +8146,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-client@npm:^3.25.0":
-  version: 3.25.1
-  resolution: "swagger-client@npm:3.25.1"
+"swagger-client@npm:^3.25.3":
+  version: 3.25.3
+  resolution: "swagger-client@npm:3.25.3"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.22.15"
     "@swagger-api/apidom-core": "npm:>=0.90.0 <1.0.0"
@@ -8169,11 +8162,10 @@ __metadata:
     is-plain-object: "npm:^5.0.0"
     js-yaml: "npm:^4.1.0"
     node-abort-controller: "npm:^3.1.1"
-    node-fetch-commonjs: "npm:^3.3.1"
+    node-fetch-commonjs: "npm:^3.3.2"
     qs: "npm:^6.10.2"
     traverse: "npm:~0.6.6"
-    undici: "npm:^5.24.0"
-  checksum: 10c0/8d0213b6d25b5cd8f5a02d5d0e344d1de447c38c76787496ad312b861a726621897bbaaa40cfb049f4dd849efa7f95581e7eef4fb3513ef46a133b3826d6a40e
+  checksum: 10c0/87bd2d70fe896792fbd61899b09cb4c6486a20e1f0fa852727065589219820eaa902b937fdf86db6130411f6c7542737fd9bc792b688d32c4853be3f32627fa8
   languageName: node
   linkType: hard
 
@@ -8202,9 +8194,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.11.7":
-  version: 5.11.7
-  resolution: "swagger-ui-react@npm:5.11.7"
+"swagger-ui-react@npm:5.11.8":
+  version: 5.11.8
+  resolution: "swagger-ui-react@npm:5.11.8"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.23.9"
     "@braintree/sanitize-url": "npm:=7.0.0"
@@ -8212,7 +8204,7 @@ __metadata:
     classnames: "npm:^2.5.1"
     css.escape: "npm:1.5.1"
     deep-extend: "npm:0.6.0"
-    dompurify: "npm:=3.0.8"
+    dompurify: "npm:=3.0.9"
     ieee754: "npm:^1.2.1"
     immutable: "npm:^3.x.x"
     js-file-download: "npm:^0.4.12"
@@ -8235,7 +8227,7 @@ __metadata:
     reselect: "npm:^5.1.0"
     serialize-error: "npm:^8.1.0"
     sha.js: "npm:^2.4.11"
-    swagger-client: "npm:^3.25.0"
+    swagger-client: "npm:^3.25.3"
     url-parse: "npm:^1.5.10"
     xml: "npm:=1.0.1"
     xml-but-prettier: "npm:^1.0.1"
@@ -8243,7 +8235,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/cab18f1fc5219af2f2f1d5d2eaa0feb12b6a9b8b536d8d00b40434bbd2c2f81d6e74c08524c79da7111ce4be5d437d1320036c55d939442a04f91abaa65865e8
+  checksum: 10c0/845d6cfb8480d86d0705c54ef0a2baa0063b285197aa355c81e8f70bbae43d21d3811449f57e493d7979b4ae85623e789d84dd1c915ae9d4b1194778e4cfbf52
   languageName: node
   linkType: hard
 
@@ -8702,15 +8694,6 @@ __metadata:
   version: 5.26.5
   resolution: "undici-types@npm:5.26.5"
   checksum: 10c0/bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
-  languageName: node
-  linkType: hard
-
-"undici@npm:^5.24.0":
-  version: 5.28.3
-  resolution: "undici@npm:5.28.3"
-  dependencies:
-    "@fastify/busboy": "npm:^2.0.0"
-  checksum: 10c0/3c559ae50ef3104b7085251445dda6f4de871553b9e290845649d2f80b06c0c9cfcdf741b0029c6b20d36c82e6a74dc815b139fa9a26757d70728074ca6d6f5c
   languageName: node
   linkType: hard
 
