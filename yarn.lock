@@ -189,7 +189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime-corejs3@npm:^7.20.7, @babel/runtime-corejs3@npm:^7.22.15, @babel/runtime-corejs3@npm:^7.23.9":
+"@babel/runtime-corejs3@npm:^7.20.7, @babel/runtime-corejs3@npm:^7.22.15, @babel/runtime-corejs3@npm:^7.24.0":
   version: 7.24.0
   resolution: "@babel/runtime-corejs3@npm:7.24.0"
   dependencies:
@@ -6006,7 +6006,7 @@ __metadata:
     react-hook-form: "npm:7.51.0"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.2"
-    swagger-ui-react: "npm:5.11.8"
+    swagger-ui-react: "npm:5.11.9"
     tailwindcss: "npm:3.4.1"
     typescript: "npm:5.3.3"
     yup: "npm:1.3.3"
@@ -8156,7 +8156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-client@npm:^3.25.3":
+"swagger-client@npm:^3.25.4":
   version: 3.25.4
   resolution: "swagger-client@npm:3.25.4"
   dependencies:
@@ -8204,11 +8204,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.11.8":
-  version: 5.11.8
-  resolution: "swagger-ui-react@npm:5.11.8"
+"swagger-ui-react@npm:5.11.9":
+  version: 5.11.9
+  resolution: "swagger-ui-react@npm:5.11.9"
   dependencies:
-    "@babel/runtime-corejs3": "npm:^7.23.9"
+    "@babel/runtime-corejs3": "npm:^7.24.0"
     "@braintree/sanitize-url": "npm:=7.0.0"
     base64-js: "npm:^1.5.1"
     classnames: "npm:^2.5.1"
@@ -8237,7 +8237,7 @@ __metadata:
     reselect: "npm:^5.1.0"
     serialize-error: "npm:^8.1.0"
     sha.js: "npm:^2.4.11"
-    swagger-client: "npm:^3.25.3"
+    swagger-client: "npm:^3.25.4"
     url-parse: "npm:^1.5.10"
     xml: "npm:=1.0.1"
     xml-but-prettier: "npm:^1.0.1"
@@ -8245,7 +8245,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/845d6cfb8480d86d0705c54ef0a2baa0063b285197aa355c81e8f70bbae43d21d3811449f57e493d7979b4ae85623e789d84dd1c915ae9d4b1194778e4cfbf52
+  checksum: 10c0/ba33c1f47d33306d7004b388ecf67f7b8d3a239c322b111100961173252cf8fd02ab241e4123205cfb271f8bcd9d675a0e3f608770743cf1f850ca3d0eb8481d
   languageName: node
   linkType: hard
 
