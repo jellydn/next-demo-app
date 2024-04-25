@@ -1635,13 +1635,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.79":
-  version: 18.2.79
-  resolution: "@types/react@npm:18.2.79"
+"@types/react@npm:18.3.0":
+  version: 18.3.0
+  resolution: "@types/react@npm:18.3.0"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/c8a8a005d8830a48cc1ef93c3510c4935a2a03e5557dbecaa8f1038450cbfcb18eb206fa7fba7077d54b8da21faeb25577e897a333392770a7797f625b62c78a
+  checksum: 10c0/6405f805700daf096a507a191bc4f8814ebed49120f156926b0a5b7b6f41424214320cea3dbb6df85f476b220f0554ef7e587baa88f59375e64bdbab525f58aa
   languageName: node
   linkType: hard
 
@@ -6090,7 +6090,7 @@ __metadata:
     "@tailwindcss/typography": "npm:0.5.12"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
     "@types/node": "npm:20.12.7"
-    "@types/react": "npm:18.2.79"
+    "@types/react": "npm:18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.19"
@@ -6106,12 +6106,12 @@ __metadata:
     next-validations: "npm:0.4.2"
     postcss: "npm:8.4.38"
     prettier: "npm:3.2.5"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react: "npm:18.3.0"
+    react-dom: "npm:18.3.0"
     react-hook-form: "npm:7.51.3"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.3"
-    swagger-ui-react: "npm:5.17.1"
+    swagger-ui-react: "npm:5.17.2"
     tailwindcss: "npm:3.4.3"
     typescript: "npm:5.4.5"
     yup: "npm:1.4.0"
@@ -7073,15 +7073,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react-dom@npm:18.2.0"
+"react-dom@npm:18.3.0":
+  version: 18.3.0
+  resolution: "react-dom@npm:18.3.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.0"
+    scheduler: "npm:^0.23.1"
   peerDependencies:
-    react: ^18.2.0
-  checksum: 10c0/66dfc5f93e13d0674e78ef41f92ed21dfb80f9c4ac4ac25a4b51046d41d4d2186abc915b897f69d3d0ebbffe6184e7c5876f2af26bfa956f179225d921be713a
+    react: ^18.3.0
+  checksum: 10c0/5072767a5d67e242579e5ed46094bf5665385fcfc50584e818273ba668f768348bfd9101841fa3986635635b1238a7a5b2d28b73b134ebbe58a415311afd60d4
   languageName: node
   linkType: hard
 
@@ -7196,12 +7196,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
+"react@npm:18.3.0":
+  version: 18.3.0
+  resolution: "react@npm:18.3.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
+  checksum: 10c0/ad87bbfdb0c5466148c657da18b0d5458e835389fc591d59840f0e6ec797a004073a01c8cdbff1767a8774c7219054a56f74dacd67bdbb849f1314e427999268
   languageName: node
   linkType: hard
 
@@ -7622,12 +7622,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "scheduler@npm:0.23.0"
+"scheduler@npm:^0.23.1":
+  version: 0.23.1
+  resolution: "scheduler@npm:0.23.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b777f7ca0115e6d93e126ac490dbd82642d14983b3079f58f35519d992fa46260be7d6e6cede433a92db70306310c6f5f06e144f0e40c484199e09c1f7be53dd
+  checksum: 10c0/cfda827a445fb57192e05275040eccc7c5e2749b98f15559520c7f6539d89d75633bb8b6c1cedf56ca0546630b72d0958bf00b63e2b8f9296e87d0d9d2d50e35
   languageName: node
   linkType: hard
 
@@ -8316,9 +8316,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.17.1":
-  version: 5.17.1
-  resolution: "swagger-ui-react@npm:5.17.1"
+"swagger-ui-react@npm:5.17.2":
+  version: 5.17.2
+  resolution: "swagger-ui-react@npm:5.17.2"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.24.4"
     "@braintree/sanitize-url": "npm:=7.0.1"
@@ -8357,7 +8357,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/77d7fd9e9c4041b6747c6a5abb0a6f316ae97ca63450c8d64f45a9de82b9aa9534c4ad01ec8bb970a60a8855f4d046620540f3ebf6224a943fead77db1eb9a28
+  checksum: 10c0/f99b7737fbf6f3a758395e4ec91dab07895fb35c1b0899a3e9f7fc2c843e57fa679e580c923978520a5bbc079e2f6162eb8bdc674d9fb87a4f002c23a40ad176
   languageName: node
   linkType: hard
 
