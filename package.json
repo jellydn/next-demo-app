@@ -45,7 +45,7 @@
 		"react-hook-form": "7.51.4",
 		"react-query": "3.39.3",
 		"sharp": "0.33.3",
-		"swagger-ui-react": "5.17.4",
+		"swagger-ui-react": "5.17.5",
 		"yup": "1.4.0"
 	},
 	"devDependencies": {
@@ -54,7 +54,7 @@
 		"@hookform/devtools": "4.3.1",
 		"@next/eslint-plugin-next": "14.2.3",
 		"@trivago/prettier-plugin-sort-imports": "4.3.0",
-		"@types/node": "20.12.9",
+		"@types/node": "20.12.10",
 		"@types/react": "18.3.1",
 		"@typescript-eslint/eslint-plugin": "6.21.0",
 		"@typescript-eslint/parser": "6.21.0",
