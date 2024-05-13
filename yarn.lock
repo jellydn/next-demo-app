@@ -6003,7 +6003,7 @@ __metadata:
     react-hook-form: "npm:7.51.4"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.3"
-    swagger-ui-react: "npm:5.17.7"
+    swagger-ui-react: "npm:5.17.8"
     tailwindcss: "npm:3.4.3"
     typescript: "npm:5.4.5"
     yup: "npm:1.4.0"
@@ -8118,7 +8118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-client@npm:^3.27.3":
+"swagger-client@npm:^3.27.8":
   version: 3.27.8
   resolution: "swagger-client@npm:3.27.8"
   dependencies:
@@ -8168,9 +8168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.17.7":
-  version: 5.17.7
-  resolution: "swagger-ui-react@npm:5.17.7"
+"swagger-ui-react@npm:5.17.8":
+  version: 5.17.8
+  resolution: "swagger-ui-react@npm:5.17.8"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.24.5"
     "@braintree/sanitize-url": "npm:=7.0.1"
@@ -8200,7 +8200,7 @@ __metadata:
     reselect: "npm:^5.1.0"
     serialize-error: "npm:^8.1.0"
     sha.js: "npm:^2.4.11"
-    swagger-client: "npm:^3.27.3"
+    swagger-client: "npm:^3.27.8"
     url-parse: "npm:^1.5.10"
     xml: "npm:=1.0.1"
     xml-but-prettier: "npm:^1.0.1"
@@ -8208,7 +8208,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/6b9915f1b5de90a92f9248802369637a3d319a78e89589c38e2621f983f33979fb26e80eba42b2ada9c011c621d0112f9f839c20e9f647e71920848ffb029688
+  checksum: 10c0/b7ed8828c0d79f47bfde6ccdd64d0335c375b37e44db09b6d892351795eee2de0e31ae0490ccbe3d400bb1af18bbfd2ae3b728ba4411e50df9d08a63ddaa0b6b
   languageName: node
   linkType: hard
 
