@@ -1035,7 +1035,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swagger-api/apidom-core@npm:>=0.99.1 <1.0.0, @swagger-api/apidom-core@npm:^0.99.2":
+"@swagger-api/apidom-core@npm:>=0.99.2 <1.0.0, @swagger-api/apidom-core@npm:^0.99.2":
   version: 0.99.2
   resolution: "@swagger-api/apidom-core@npm:0.99.2"
   dependencies:
@@ -1061,7 +1061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swagger-api/apidom-json-pointer@npm:>=0.99.1 <1.0.0, @swagger-api/apidom-json-pointer@npm:^0.99.2":
+"@swagger-api/apidom-json-pointer@npm:>=0.99.2 <1.0.0, @swagger-api/apidom-json-pointer@npm:^0.99.2":
   version: 0.99.2
   resolution: "@swagger-api/apidom-json-pointer@npm:0.99.2"
   dependencies:
@@ -1185,7 +1185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swagger-api/apidom-ns-openapi-3-1@npm:>=0.99.1 <1.0.0, @swagger-api/apidom-ns-openapi-3-1@npm:^0.99.2":
+"@swagger-api/apidom-ns-openapi-3-1@npm:>=0.99.2 <1.0.0, @swagger-api/apidom-ns-openapi-3-1@npm:^0.99.2":
   version: 0.99.2
   resolution: "@swagger-api/apidom-ns-openapi-3-1@npm:0.99.2"
   dependencies:
@@ -1434,7 +1434,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swagger-api/apidom-reference@npm:>=0.99.1 <1.0.0":
+"@swagger-api/apidom-reference@npm:>=0.99.2 <1.0.0":
   version: 0.99.2
   resolution: "@swagger-api/apidom-reference@npm:0.99.2"
   dependencies:
@@ -6003,7 +6003,7 @@ __metadata:
     react-hook-form: "npm:7.51.4"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.3"
-    swagger-ui-react: "npm:5.17.8"
+    swagger-ui-react: "npm:5.17.9"
     tailwindcss: "npm:3.4.3"
     typescript: "npm:5.4.5"
     yup: "npm:1.4.0"
@@ -8118,16 +8118,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-client@npm:^3.27.8":
-  version: 3.27.8
-  resolution: "swagger-client@npm:3.27.8"
+"swagger-client@npm:^3.27.9":
+  version: 3.27.9
+  resolution: "swagger-client@npm:3.27.9"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.22.15"
-    "@swagger-api/apidom-core": "npm:>=0.99.1 <1.0.0"
+    "@swagger-api/apidom-core": "npm:>=0.99.2 <1.0.0"
     "@swagger-api/apidom-error": "npm:>=0.99.0 <1.0.0"
-    "@swagger-api/apidom-json-pointer": "npm:>=0.99.1 <1.0.0"
-    "@swagger-api/apidom-ns-openapi-3-1": "npm:>=0.99.1 <1.0.0"
-    "@swagger-api/apidom-reference": "npm:>=0.99.1 <1.0.0"
+    "@swagger-api/apidom-json-pointer": "npm:>=0.99.2 <1.0.0"
+    "@swagger-api/apidom-ns-openapi-3-1": "npm:>=0.99.2 <1.0.0"
+    "@swagger-api/apidom-reference": "npm:>=0.99.2 <1.0.0"
     cookie: "npm:~0.6.0"
     deepmerge: "npm:~4.3.0"
     fast-json-patch: "npm:^3.0.0-1"
@@ -8139,7 +8139,7 @@ __metadata:
     qs: "npm:^6.10.2"
     ramda-adjunct: "npm:^5.0.0"
     traverse: "npm:=0.6.8"
-  checksum: 10c0/fd3bb234f005cce4b3d81282b588e737b5801e794e620c162499b681213a56fa98a662ec16c1be3cc6932d2dfa56d464afb464fd399374656350752f1375f8d6
+  checksum: 10c0/a5dd133a911bb2060a1de897e6b08ab7c9200da6de5571791611e044d38162505ab98cc341860761973ee2ed7e8aa7589968b5e1e8e4d02fce924572fe0763be
   languageName: node
   linkType: hard
 
@@ -8168,9 +8168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.17.8":
-  version: 5.17.8
-  resolution: "swagger-ui-react@npm:5.17.8"
+"swagger-ui-react@npm:5.17.9":
+  version: 5.17.9
+  resolution: "swagger-ui-react@npm:5.17.9"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.24.5"
     "@braintree/sanitize-url": "npm:=7.0.1"
@@ -8200,7 +8200,7 @@ __metadata:
     reselect: "npm:^5.1.0"
     serialize-error: "npm:^8.1.0"
     sha.js: "npm:^2.4.11"
-    swagger-client: "npm:^3.27.8"
+    swagger-client: "npm:^3.27.9"
     url-parse: "npm:^1.5.10"
     xml: "npm:=1.0.1"
     xml-but-prettier: "npm:^1.0.1"
@@ -8208,7 +8208,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/b7ed8828c0d79f47bfde6ccdd64d0335c375b37e44db09b6d892351795eee2de0e31ae0490ccbe3d400bb1af18bbfd2ae3b728ba4411e50df9d08a63ddaa0b6b
+  checksum: 10c0/5ab37d4350fb617c98563b2aad6080d1b7f8fd7bf439136b64bc8f58b4ed738782c3b308d28731c3cbba39e6382a2e0092515fc5298285e44818995372ec9118
   languageName: node
   linkType: hard
 
