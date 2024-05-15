@@ -34,7 +34,7 @@
 		"@happykit/analytics": "1.0.1",
 		"@happykit/flags": "2.0.7",
 		"@hookform/error-message": "2.0.1",
-		"@hookform/resolvers": "3.3.4",
+		"@hookform/resolvers": "3.4.0",
 		"@tailwindcss/typography": "0.5.13",
 		"daisyui": "4.11.1",
 		"next": "14.2.3",
@@ -45,7 +45,7 @@
 		"react-hook-form": "7.51.4",
 		"react-query": "3.39.3",
 		"sharp": "0.33.3",
-		"swagger-ui-react": "5.17.9",
+		"swagger-ui-react": "5.17.10",
 		"yup": "1.4.0"
 	},
 	"devDependencies": {
