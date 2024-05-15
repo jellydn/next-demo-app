@@ -565,12 +565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:3.3.4":
-  version: 3.3.4
-  resolution: "@hookform/resolvers@npm:3.3.4"
+"@hookform/resolvers@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@hookform/resolvers@npm:3.4.0"
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: 10c0/f7a5b8ba59cbb0859e7a212bd5cbcbc70bbdddd21d4fbe9f4a96d149b5756470cb29857a50334d8c1c64392e21007ccf5288d26aa407431784d4006a2570cb36
+  checksum: 10c0/017b2620b2496c0a2aa4f30f16a58e10b05a12fd3a603338c9aae92b20404c30dfaf86fb1f4f873db95f4756707cf5c4b88cd4e22327f2ca9a43daf495946f86
   languageName: node
   linkType: hard
 
@@ -5977,7 +5977,7 @@ __metadata:
     "@happykit/flags": "npm:2.0.7"
     "@hookform/devtools": "npm:4.3.1"
     "@hookform/error-message": "npm:2.0.1"
-    "@hookform/resolvers": "npm:3.3.4"
+    "@hookform/resolvers": "npm:3.4.0"
     "@next/eslint-plugin-next": "npm:14.2.3"
     "@tailwindcss/typography": "npm:0.5.13"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
@@ -6003,7 +6003,7 @@ __metadata:
     react-hook-form: "npm:7.51.4"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.3"
-    swagger-ui-react: "npm:5.17.9"
+    swagger-ui-react: "npm:5.17.10"
     tailwindcss: "npm:3.4.3"
     typescript: "npm:5.4.5"
     yup: "npm:1.4.0"
@@ -8168,9 +8168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.17.9":
-  version: 5.17.9
-  resolution: "swagger-ui-react@npm:5.17.9"
+"swagger-ui-react@npm:5.17.10":
+  version: 5.17.10
+  resolution: "swagger-ui-react@npm:5.17.10"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.24.5"
     "@braintree/sanitize-url": "npm:=7.0.1"
@@ -8208,7 +8208,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/5ab37d4350fb617c98563b2aad6080d1b7f8fd7bf439136b64bc8f58b4ed738782c3b308d28731c3cbba39e6382a2e0092515fc5298285e44818995372ec9118
+  checksum: 10c0/43c536004a138a3d73743d9c7bad9e39b105695b17d7863dc7677fc77b862ecb3f725229ed23a36076189c41c5e0dc653fad4e31ed0aba47746dc3a079fc9652
   languageName: node
   linkType: hard
 
