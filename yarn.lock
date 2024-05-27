@@ -6008,7 +6008,7 @@ __metadata:
     react-hook-form: "npm:7.51.5"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.4"
-    swagger-ui-react: "npm:5.17.12"
+    swagger-ui-react: "npm:5.17.13"
     tailwindcss: "npm:3.4.3"
     typescript: "npm:5.4.5"
     yup: "npm:1.4.0"
@@ -8166,9 +8166,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.17.12":
-  version: 5.17.12
-  resolution: "swagger-ui-react@npm:5.17.12"
+"swagger-ui-react@npm:5.17.13":
+  version: 5.17.13
+  resolution: "swagger-ui-react@npm:5.17.13"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.24.5"
     "@braintree/sanitize-url": "npm:=7.0.2"
@@ -8206,7 +8206,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/8832a7629dbdba80bcec4cdac8c6dee4fe06e1a4dc83b3fa5506e9822ac5095e819dc573fa1e244bc763b5a418c60ac35be367d71ea441453d36ff03edd8a2b0
+  checksum: 10c0/475da341f920b8e510f8d4931fb7591100fecc33136404c27e888aa63e74661a0ed730a0189bfcaec0f6c7cbaaef5d990fa46abc31cad0448b2a722642fcef3a
   languageName: node
   linkType: hard
 
