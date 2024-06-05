@@ -565,12 +565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hookform/resolvers@npm:3.4.2":
-  version: 3.4.2
-  resolution: "@hookform/resolvers@npm:3.4.2"
+"@hookform/resolvers@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@hookform/resolvers@npm:3.5.0"
   peerDependencies:
     react-hook-form: ^7.0.0
-  checksum: 10c0/cb8a3e0cc1c9aeaf2adad585f29badf342a96da9cfdf4efa1168aadb7ef52f440cac5cc6fedf0fda6a52effd27a5c859692c89bb99ed5c76d03064aea1f0d684
+  checksum: 10c0/110b9c302f3cb060564ed65f72c2c177fd4e0080e71f6e4510fc61c0f488ccfeab82787cb2c1afb6ab133f4d40c0835721c42a5366f8db23323758a648a8e98a
   languageName: node
   linkType: hard
 
@@ -1596,12 +1596,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.14.1":
-  version: 20.14.1
-  resolution: "@types/node@npm:20.14.1"
+"@types/node@npm:20.14.2":
+  version: 20.14.2
+  resolution: "@types/node@npm:20.14.2"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/12b7879047f50cc217bbea3add7c45e542070f6e9fb2092be97542152b7022512bcb2bf848d04f77e295c4c8699acd484e79a4a4dbe9bcfa4e89dd543d530611
+  checksum: 10c0/2d86e5f2227aaa42212e82ea0affe72799111b888ff900916376450b02b09b963ca888b20d9c332d8d2b833ed4781987867a38eaa2e4863fa8439071468b0a6f
   languageName: node
   linkType: hard
 
@@ -2976,15 +2976,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:4.11.1":
-  version: 4.11.1
-  resolution: "daisyui@npm:4.11.1"
+"daisyui@npm:4.12.2":
+  version: 4.12.2
+  resolution: "daisyui@npm:4.12.2"
   dependencies:
     css-selector-tokenizer: "npm:^0.8"
     culori: "npm:^3"
     picocolors: "npm:^1"
     postcss-js: "npm:^4"
-  checksum: 10c0/0207e57720e1f508d7c03bd5f2b0aeadcc076c06c9c11c4e3cc6976a3ee2ac7b0cc84e02f28a8360584d52ceecb9a6ff862c80814356fe9568335a1b5af63be7
+  checksum: 10c0/28ddd2ed44ddbcee9ba0c7f4c4b3a1db88a07772caadfa47e23a0bc9c01982a72504256be98aa38204be995dcaca1574de68db5237f6eb9a457705a0c81d8d3f
   languageName: node
   linkType: hard
 
@@ -6002,16 +6002,16 @@ __metadata:
     "@happykit/flags": "npm:2.0.7"
     "@hookform/devtools": "npm:4.3.1"
     "@hookform/error-message": "npm:2.0.1"
-    "@hookform/resolvers": "npm:3.4.2"
+    "@hookform/resolvers": "npm:3.5.0"
     "@next/eslint-plugin-next": "npm:14.2.3"
     "@tailwindcss/typography": "npm:0.5.13"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
-    "@types/node": "npm:20.14.1"
+    "@types/node": "npm:20.14.2"
     "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.19"
-    daisyui: "npm:4.11.1"
+    daisyui: "npm:4.12.2"
     eslint: "npm:8.57.0"
     eslint-config-next: "npm:14.2.3"
     eslint-config-prettier: "npm:9.1.0"
