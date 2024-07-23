@@ -1617,12 +1617,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.14.11":
-  version: 20.14.11
-  resolution: "@types/node@npm:20.14.11"
+"@types/node@npm:20.14.12":
+  version: 20.14.12
+  resolution: "@types/node@npm:20.14.12"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/5306becc0ff41d81b1e31524bd376e958d0741d1ce892dffd586b9ae0cb6553c62b0d62abd16da8bea6b9a2c17572d360450535d7c073794b0cef9cb4e39691e
+  checksum: 10c0/59bc5fa11fdd23fd517f859063118f54a1ab53d3399ef63c926f8902429d7453abc0db22ef4b0a6110026b6ab81b6472fee894e1d235c24b01a0b3e10cfae0bb
   languageName: node
   linkType: hard
 
@@ -6151,7 +6151,7 @@ __metadata:
     "@next/eslint-plugin-next": "npm:14.2.5"
     "@tailwindcss/typography": "npm:0.5.13"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
-    "@types/node": "npm:20.14.11"
+    "@types/node": "npm:20.14.12"
     "@types/react": "npm:18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
@@ -6175,7 +6175,7 @@ __metadata:
     sharp: "npm:0.33.4"
     swagger-ui-react: "npm:5.17.14"
     tailwindcss: "npm:3.4.6"
-    typescript: "npm:5.5.3"
+    typescript: "npm:5.5.4"
     yup: "npm:1.4.0"
   languageName: unknown
   linkType: soft
@@ -8826,23 +8826,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.5.3":
-  version: 5.5.3
-  resolution: "typescript@npm:5.5.3"
+"typescript@npm:5.5.4":
+  version: 5.5.4
+  resolution: "typescript@npm:5.5.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/f52c71ccbc7080b034b9d3b72051d563601a4815bf3e39ded188e6ce60813f75dbedf11ad15dd4d32a12996a9ed8c7155b46c93a9b9c9bad1049766fe614bbdd
+  checksum: 10c0/422be60f89e661eab29ac488c974b6cc0a660fb2228003b297c3d10c32c90f3bcffc1009b43876a082515a3c376b1eefcce823d6e78982e6878408b9a923199c
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>":
-  version: 5.5.3
-  resolution: "typescript@patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"
+"typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>":
+  version: 5.5.4
+  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/911c7811d61f57f07df79c4a35f56a0f426a65426a020e5fcd792f66559f399017205f5f10255329ab5a3d8c2d1f1d19530aeceffda70758a521fae1d469432e
+  checksum: 10c0/73409d7b9196a5a1217b3aaad929bf76294d3ce7d6e9766dd880ece296ee91cf7d7db6b16c6c6c630ee5096eccde726c0ef17c7dfa52b01a243e57ae1f09ef07
   languageName: node
   linkType: hard
 
