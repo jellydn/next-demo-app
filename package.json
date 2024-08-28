@@ -35,7 +35,7 @@
 		"@happykit/flags": "2.0.7",
 		"@hookform/error-message": "2.0.1",
 		"@hookform/resolvers": "3.9.0",
-		"@tailwindcss/typography": "0.5.14",
+		"@tailwindcss/typography": "0.5.15",
 		"daisyui": "4.12.10",
 		"next": "14.2.7",
 		"next-swagger-doc": "0.4.0",
