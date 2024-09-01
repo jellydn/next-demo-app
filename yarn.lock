@@ -1616,12 +1616,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.16.2":
-  version: 20.16.2
-  resolution: "@types/node@npm:20.16.2"
+"@types/node@npm:20.16.3":
+  version: 20.16.3
+  resolution: "@types/node@npm:20.16.3"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/74fac185dbd2c6b301cde75747c1cd6c9ca1ad7266147ea107a798837f40b8a05991177ebd7925fc7450d51334096259d186afad6e0d22864b7c97f8afef6ba7
+  checksum: 10c0/907c01d58ae36695fbed0b101e7a14cc2e0c5b9b2ba7904ef21cef093e4aac0649ac2a7a283fc94e19311dd0551d778445dd45fcf2d8bd45c494c9ecd802de69
   languageName: node
   linkType: hard
 
@@ -5571,9 +5571,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:15.2.9":
-  version: 15.2.9
-  resolution: "lint-staged@npm:15.2.9"
+"lint-staged@npm:15.2.10":
+  version: 15.2.10
+  resolution: "lint-staged@npm:15.2.10"
   dependencies:
     chalk: "npm:~5.3.0"
     commander: "npm:~12.1.0"
@@ -5581,13 +5581,13 @@ __metadata:
     execa: "npm:~8.0.1"
     lilconfig: "npm:~3.1.2"
     listr2: "npm:~8.2.4"
-    micromatch: "npm:~4.0.7"
+    micromatch: "npm:~4.0.8"
     pidtree: "npm:~0.6.0"
     string-argv: "npm:~0.3.2"
     yaml: "npm:~2.5.0"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10c0/820c622378b62b826974af17f1747e2a4b0556e4fb99d101af89ad298d392ff079f580fdc576f16a27e975d726b95d73495fd524139402ff654c4649ef2f1a6a
+  checksum: 10c0/6ad7b41f5e87a84fa2eb1990080ea3c68a2f2031b4e81edcdc2a458cc878538eedb310e6f98ffd878a1287e1a52ac968e540ee8a0e96c247e04b0cbc36421cdd
   languageName: node
   linkType: hard
 
@@ -5837,7 +5837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.4, micromatch@npm:^4.0.5, micromatch@npm:~4.0.7":
+"micromatch@npm:^4.0.4, micromatch@npm:^4.0.5, micromatch@npm:~4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -6173,7 +6173,7 @@ __metadata:
     "@next/eslint-plugin-next": "npm:14.2.7"
     "@tailwindcss/typography": "npm:0.5.15"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
-    "@types/node": "npm:20.16.2"
+    "@types/node": "npm:20.16.3"
     "@types/react": "npm:18.3.5"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
@@ -6184,7 +6184,7 @@ __metadata:
     eslint-config-prettier: "npm:9.1.0"
     eslint-config-productsway: "npm:1.3.3"
     husky: "npm:8.0.3"
-    lint-staged: "npm:15.2.9"
+    lint-staged: "npm:15.2.10"
     next: "npm:14.2.7"
     next-swagger-doc: "npm:0.4.0"
     next-validations: "npm:0.4.2"
