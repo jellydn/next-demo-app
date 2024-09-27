@@ -1645,12 +1645,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.16.8":
-  version: 20.16.8
-  resolution: "@types/node@npm:20.16.8"
+"@types/node@npm:20.16.10":
+  version: 20.16.10
+  resolution: "@types/node@npm:20.16.10"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/3b3bd96885cbbe49e5f701be91f9a69b904a60b23fd4812083b053a802a03e38227919ff800aff2961fd11147b471a1a4fc09f1df171f372698f16d39859aebf
+  checksum: 10c0/c0c0c7ecb083ec638c2118e54b5242bb4c39a75608cbac9475cf15aaceb64b8bc997a87a0798e700a81d61651c8a7750ae0455be0f0996ada6e8b2bb818d90c5
   languageName: node
   linkType: hard
 
@@ -1677,13 +1677,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.9":
-  version: 18.3.9
-  resolution: "@types/react@npm:18.3.9"
+"@types/react@npm:18.3.10":
+  version: 18.3.10
+  resolution: "@types/react@npm:18.3.10"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/a92b8e061d0c833e096254782c56a802316593f4a907fb834b557cabe848a0829b9eb6056404ea239eb4d5ec5ac7b7724309761516c0a7a277916fa04dd4f805
+  checksum: 10c0/f5be1de1b0331c1fdb33d577f4cf7f1b949d4bded5347b2351a537f03c51dade5be115e21b161dcf1b37061954d320f6a0bdf8d7b70e24eda51071fdd614383d
   languageName: node
   linkType: hard
 
@@ -6203,8 +6203,8 @@ __metadata:
     "@next/eslint-plugin-next": "npm:14.2.13"
     "@tailwindcss/typography": "npm:0.5.15"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
-    "@types/node": "npm:20.16.8"
-    "@types/react": "npm:18.3.9"
+    "@types/node": "npm:20.16.10"
+    "@types/react": "npm:18.3.10"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.20"
