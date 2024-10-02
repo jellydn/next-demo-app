@@ -1677,13 +1677,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.10":
-  version: 18.3.10
-  resolution: "@types/react@npm:18.3.10"
+"@types/react@npm:18.3.11":
+  version: 18.3.11
+  resolution: "@types/react@npm:18.3.11"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/f5be1de1b0331c1fdb33d577f4cf7f1b949d4bded5347b2351a537f03c51dade5be115e21b161dcf1b37061954d320f6a0bdf8d7b70e24eda51071fdd614383d
+  checksum: 10c0/ce80512246ca5bda69db85b9f4f1835189334acfb6b2c4f3eda8cabff1ff1a3ea9ce4f3b895bdbc18c94140aa45592331aa3fdeb557f525c1b048de7ce84fc0e
   languageName: node
   linkType: hard
 
@@ -3065,15 +3065,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:4.12.10":
-  version: 4.12.10
-  resolution: "daisyui@npm:4.12.10"
+"daisyui@npm:4.12.11":
+  version: 4.12.11
+  resolution: "daisyui@npm:4.12.11"
   dependencies:
     css-selector-tokenizer: "npm:^0.8"
     culori: "npm:^3"
     picocolors: "npm:^1"
     postcss-js: "npm:^4"
-  checksum: 10c0/f677d9717d6241d6c829141645ff15a5d6aaa9e279a90e1acb248613c9cc25d7d0b9fcac55ec572537f6bc472e1ab5f0bed7797a1815b6fde9a644be62f357d0
+  checksum: 10c0/fe4292860f621222c71260b37f7a0b40d28e667a52d1816aeb45f409eeb6b6c1a4100cde98c58a8989a75a377a1532c99bf38c2c5f730fcfdb7b59f273046d3f
   languageName: node
   linkType: hard
 
@@ -6232,11 +6232,11 @@ __metadata:
     "@tailwindcss/typography": "npm:0.5.15"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
     "@types/node": "npm:20.16.10"
-    "@types/react": "npm:18.3.10"
+    "@types/react": "npm:18.3.11"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.20"
-    daisyui: "npm:4.12.10"
+    daisyui: "npm:4.12.11"
     eslint: "npm:8.57.1"
     eslint-config-next: "npm:14.2.14"
     eslint-config-prettier: "npm:9.1.0"
