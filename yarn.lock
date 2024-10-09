@@ -3065,15 +3065,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:4.12.12":
-  version: 4.12.12
-  resolution: "daisyui@npm:4.12.12"
+"daisyui@npm:4.12.13":
+  version: 4.12.13
+  resolution: "daisyui@npm:4.12.13"
   dependencies:
     css-selector-tokenizer: "npm:^0.8"
     culori: "npm:^3"
     picocolors: "npm:^1"
     postcss-js: "npm:^4"
-  checksum: 10c0/12d542638394784b964a0cb47b051eeb7e1170ba87572fe4c8c40352a7583603787778e0b11b14b3cd0aa953396a77d41ad828dcae95a46ec91dbeccf07890fa
+  checksum: 10c0/c4a4470f84f54c7a091fa77c323d4cd42a87dfa0a0a1797b9c6b8170bf6e1154f04f0f68d835a0b340bdd088910e89a49a752f100d32b5492736b29017d21d03
   languageName: node
   linkType: hard
 
@@ -6274,7 +6274,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.20"
-    daisyui: "npm:4.12.12"
+    daisyui: "npm:4.12.13"
     eslint: "npm:8.57.1"
     eslint-config-next: "npm:14.2.15"
     eslint-config-prettier: "npm:9.1.0"
