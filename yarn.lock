@@ -1044,10 +1044,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scarf/scarf@npm:=1.3.0":
-  version: 1.3.0
-  resolution: "@scarf/scarf@npm:1.3.0"
-  checksum: 10c0/b616ea968b9e04124b9fa43bc170d2b002e18936eb3450e71ccaa88faf0a90a28eead36efdfe9c5bc69bf4cf6b9e079e364e67e276701e950fbbd463bc735356
+"@scarf/scarf@npm:=1.4.0":
+  version: 1.4.0
+  resolution: "@scarf/scarf@npm:1.4.0"
+  checksum: 10c0/332118bb488e7a70eaad068fb1a33f016d30442fb0498b37a80cb425c1e741853a5de1a04dce03526ed6265481ecf744aa6e13f072178d19e6b94b19f623ae1c
   languageName: node
   linkType: hard
 
@@ -6323,10 +6323,10 @@ __metadata:
     prettier: "npm:3.3.3"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
-    react-hook-form: "npm:7.53.1"
+    react-hook-form: "npm:7.53.2"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.5"
-    swagger-ui-react: "npm:5.18.1"
+    swagger-ui-react: "npm:5.18.2"
     tailwindcss: "npm:3.4.14"
     typescript: "npm:5.6.3"
     yup: "npm:1.4.0"
@@ -7296,12 +7296,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:7.53.1":
-  version: 7.53.1
-  resolution: "react-hook-form@npm:7.53.1"
+"react-hook-form@npm:7.53.2":
+  version: 7.53.2
+  resolution: "react-hook-form@npm:7.53.2"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18 || ^19
-  checksum: 10c0/dd2466359a633f873755b366d367d51ab17100566b687fb3b098f704232bc6ab1c79d29f879151e492880ca5eeac35e9425fbe5a309e2a55f7a4b5baf7826e8d
+  checksum: 10c0/18336d8e8798a70dcd0af703a0becca2d5dbf82a7b7a3ca334ae0e1f26410490bc3ef2ea51adcf790bb1e7006ed7a763fd00d664e398f71225b23529a7ccf0bf
   languageName: node
   linkType: hard
 
@@ -8467,12 +8467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-client@npm:^3.30.1":
-  version: 3.30.1
-  resolution: "swagger-client@npm:3.30.1"
+"swagger-client@npm:^3.31.0":
+  version: 3.31.0
+  resolution: "swagger-client@npm:3.31.0"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.22.15"
-    "@scarf/scarf": "npm:=1.3.0"
+    "@scarf/scarf": "npm:=1.4.0"
     "@swagger-api/apidom-core": "npm:>=1.0.0-alpha.9 <1.0.0-beta.0"
     "@swagger-api/apidom-error": "npm:>=1.0.0-alpha.9 <1.0.0-beta.0"
     "@swagger-api/apidom-json-pointer": "npm:>=1.0.0-alpha.9 <1.0.0-beta.0"
@@ -8489,7 +8489,7 @@ __metadata:
     openapi-server-url-templating: "npm:^1.0.0"
     ramda: "npm:^0.30.1"
     ramda-adjunct: "npm:^5.0.0"
-  checksum: 10c0/69395ad3ce7d42dee62f6beca3c80eb661664ca406946b7f04b7491b44474a0cd89a24c70d527a3909188ec66259e14681dee4559df31444df9a2c57c7db0f42
+  checksum: 10c0/48678ba240a9ff6144b060cb5b6cc75878a956f87261dae0b79177740ff4c6ca531ff1453567f67def0d5c59fdb770fa322c195737274c86909c26f93494cabe
   languageName: node
   linkType: hard
 
@@ -8518,13 +8518,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-react@npm:5.18.1":
-  version: 5.18.1
-  resolution: "swagger-ui-react@npm:5.18.1"
+"swagger-ui-react@npm:5.18.2":
+  version: 5.18.2
+  resolution: "swagger-ui-react@npm:5.18.2"
   dependencies:
     "@babel/runtime-corejs3": "npm:^7.24.7"
     "@braintree/sanitize-url": "npm:=7.0.4"
-    "@scarf/scarf": "npm:=1.3.0"
+    "@scarf/scarf": "npm:=1.4.0"
     base64-js: "npm:^1.5.1"
     classnames: "npm:^2.5.1"
     css.escape: "npm:1.5.1"
@@ -8551,7 +8551,7 @@ __metadata:
     reselect: "npm:^5.1.1"
     serialize-error: "npm:^8.1.0"
     sha.js: "npm:^2.4.11"
-    swagger-client: "npm:^3.30.1"
+    swagger-client: "npm:^3.31.0"
     url-parse: "npm:^1.5.10"
     xml: "npm:=1.0.1"
     xml-but-prettier: "npm:^1.0.1"
@@ -8559,7 +8559,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0 <19"
     react-dom: ">=16.8.0 <19"
-  checksum: 10c0/be02e54d2c21aa04d6600d9cf2ebf05a4ddd0934f61b18f9ce4961868775ef357ede784c3eb49a722ac4a0df7dcd9363827d047d4e1cb7c40e44f96cf359c1f6
+  checksum: 10c0/0634456deded5affe11070a1848438499d2386e4f2179423aba7f8eec162845f6691665672cabf0054347b27c98e3606fafcde0cdd6e9b0f4119fc03552573f9
   languageName: node
   linkType: hard
 
