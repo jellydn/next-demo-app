@@ -68,9 +68,9 @@
 		"postcss": "8.4.49",
 		"prettier": "3.3.3",
 		"tailwindcss": "3.4.15",
-		"typescript": "5.6.3"
+		"typescript": "5.7.2"
 	},
-	"packageManager": "yarn@4.5.1",
+	"packageManager": "yarn@4.5.2",
 	"apihero": {
 		"workerDirectory": "public"
 	}
