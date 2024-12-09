@@ -1689,13 +1689,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.13":
-  version: 18.3.13
-  resolution: "@types/react@npm:18.3.13"
+"@types/react@npm:18.3.14":
+  version: 18.3.14
+  resolution: "@types/react@npm:18.3.14"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/91815e00157deb179fa670aa2dfc491952698b7743ffddca0e3e0f16e7a18454f3f5ef72321a07386c49e721563b9d280dbbdfae039face764e2fdd8ad949d4b
+  checksum: 10c0/d925fbfcf084238b93d1a0b5406d4cf9aeb37c4a1191559aa4ee107c2e55cc15327989140f03eddda4d471f5b935d4673fd74a86f451860edea18eae48ca44f8
   languageName: node
   linkType: hard
 
@@ -3082,15 +3082,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:4.12.14":
-  version: 4.12.14
-  resolution: "daisyui@npm:4.12.14"
+"daisyui@npm:4.12.20":
+  version: 4.12.20
+  resolution: "daisyui@npm:4.12.20"
   dependencies:
     css-selector-tokenizer: "npm:^0.8"
     culori: "npm:^3"
     picocolors: "npm:^1"
     postcss-js: "npm:^4"
-  checksum: 10c0/8b665e285cea4fa8775428ea6b6ca5f86b41077ac37db2faae9566bc97c9dc4fc637243791a795ba3db17fe62beeef01fb02092d26323cab90e93ce2768b7d14
+  checksum: 10c0/067d89d481a7759e315862802f315e66a0e0a19eec04cd6b98de6993dd8462665d87ca885cc773af8a982f8875c495fca70945d85ed6ee2f39600beb8c194412
   languageName: node
   linkType: hard
 
@@ -6258,11 +6258,11 @@ __metadata:
     "@tailwindcss/typography": "npm:0.5.15"
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
     "@types/node": "npm:20.17.9"
-    "@types/react": "npm:18.3.13"
+    "@types/react": "npm:18.3.14"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     autoprefixer: "npm:10.4.20"
-    daisyui: "npm:4.12.14"
+    daisyui: "npm:4.12.20"
     eslint: "npm:8.57.1"
     eslint-config-next: "npm:14.2.20"
     eslint-config-prettier: "npm:9.1.0"
@@ -6276,7 +6276,7 @@ __metadata:
     prettier: "npm:3.4.2"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
-    react-hook-form: "npm:7.53.2"
+    react-hook-form: "npm:7.54.0"
     react-query: "npm:3.39.3"
     sharp: "npm:0.33.5"
     swagger-ui-react: "npm:5.18.2"
@@ -7226,12 +7226,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:7.53.2":
-  version: 7.53.2
-  resolution: "react-hook-form@npm:7.53.2"
+"react-hook-form@npm:7.54.0":
+  version: 7.54.0
+  resolution: "react-hook-form@npm:7.54.0"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18 || ^19
-  checksum: 10c0/18336d8e8798a70dcd0af703a0becca2d5dbf82a7b7a3ca334ae0e1f26410490bc3ef2ea51adcf790bb1e7006ed7a763fd00d664e398f71225b23529a7ccf0bf
+  checksum: 10c0/8dbc68e8b82aafda1271bbc291052b5efb091505865cd10e3d7dd618ca3870bd05596d7ba68f128427d47ff11e0d9f03089fd7afb88d2a8865ff81f21af417a0
   languageName: node
   linkType: hard
 
