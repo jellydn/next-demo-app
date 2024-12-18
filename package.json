@@ -46,12 +46,12 @@
 		"react-query": "3.39.3",
 		"sharp": "0.33.5",
 		"swagger-ui-react": "5.18.2",
-		"yup": "1.5.0"
+		"yup": "1.6.1"
 	},
 	"devDependencies": {
 		"@codechecks/build-size-watcher": "0.1.0",
 		"@codechecks/client": "0.1.12",
-		"@hookform/devtools": "4.3.2",
+		"@hookform/devtools": "4.3.3",
 		"@next/eslint-plugin-next": "14.2.20",
 		"@trivago/prettier-plugin-sort-imports": "4.3.0",
 		"@types/node": "20.17.10",
@@ -67,7 +67,7 @@
 		"lint-staged": "15.2.11",
 		"postcss": "8.4.49",
 		"prettier": "3.4.2",
-		"tailwindcss": "3.4.16",
+		"tailwindcss": "3.4.17",
 		"typescript": "5.7.2"
 	},
 	"packageManager": "yarn@4.5.3",
