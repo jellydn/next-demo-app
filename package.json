@@ -39,7 +39,7 @@
 		"daisyui": "4.12.22",
 		"next": "14.2.21",
 		"next-swagger-doc": "0.4.1",
-		"next-validations": "0.4.2",
+		"next-validations": "1.0.3",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
 		"react-hook-form": "7.54.2",
