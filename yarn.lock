@@ -510,15 +510,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@giscus/react@npm:2.4.0":
-  version: 2.4.0
-  resolution: "@giscus/react@npm:2.4.0"
+"@giscus/react@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@giscus/react@npm:3.1.0"
   dependencies:
-    giscus: "npm:^1.4.0"
+    giscus: "npm:^1.6.0"
   peerDependencies:
-    react: ^16 || ^17 || ^18
-    react-dom: ^16 || ^17 || ^18
-  checksum: 10c0/a3bd55dcb137a47f7a21319232136b54405cf9f53976ebc6b556fc4206c73dbb49a441d8d182ea98b15b48fb1be863f03aa78695731637cbfc6aedfa214813ea
+    react: ^16 || ^17 || ^18 || ^19
+    react-dom: ^16 || ^17 || ^18 || ^19
+  checksum: 10c0/1347b3a729917a7c134dbf38ff4e15189d37447db3453dfbcb0a76b58f6044a32040d197a0744a093682bcefea14e27b8167dfe30f55d79f3f415054092104c9
   languageName: node
   linkType: hard
 
@@ -4533,12 +4533,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"giscus@npm:^1.4.0":
-  version: 1.5.0
-  resolution: "giscus@npm:1.5.0"
+"giscus@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "giscus@npm:1.6.0"
   dependencies:
-    lit: "npm:^3.1.2"
-  checksum: 10c0/2e94c0260128c402de16550d1ec1b5797dc2efbebed994371920fed1a7018f4b20377f147205c6e479e3e99d975a499db746ae813ca11e1a7d58009e6f059842
+    lit: "npm:^3.2.1"
+  checksum: 10c0/2dc96e45591b38bbf8db7c9a0efbb25f598e57522cd90ca0cad23d573f88f5adbe4411c0c4cf61231f6dca57531d6fe4fbbcd12be78681cba3aa218eb4584e11
   languageName: node
   linkType: hard
 
@@ -5734,7 +5734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit@npm:^3.1.2":
+"lit@npm:^3.2.1":
   version: 3.2.1
   resolution: "lit@npm:3.2.1"
   dependencies:
@@ -6235,7 +6235,7 @@ __metadata:
     "@apihero/browser": "npm:1.3.16"
     "@codechecks/build-size-watcher": "npm:0.1.0"
     "@codechecks/client": "npm:0.1.12"
-    "@giscus/react": "npm:2.4.0"
+    "@giscus/react": "npm:3.1.0"
     "@happykit/analytics": "npm:1.0.1"
     "@happykit/flags": "npm:2.0.7"
     "@hookform/devtools": "npm:4.3.3"
