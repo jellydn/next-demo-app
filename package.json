@@ -53,7 +53,7 @@
 		"@codechecks/client": "0.1.12",
 		"@hookform/devtools": "4.3.3",
 		"@next/eslint-plugin-next": "14.2.23",
-		"@trivago/prettier-plugin-sort-imports": "4.3.0",
+		"@trivago/prettier-plugin-sort-imports": "5.2.2",
 		"@types/node": "20.17.12",
 		"@types/react": "18.3.18",
 		"@typescript-eslint/eslint-plugin": "6.21.0",
