@@ -42,10 +42,10 @@
 		"next-validations": "0.4.2",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
-		"react-hook-form": "7.65.0",
+		"react-hook-form": "7.66.1",
 		"react-query": "3.39.3",
-		"sharp": "0.34.4",
-		"swagger-ui-react": "5.30.0",
+		"sharp": "0.34.5",
+		"swagger-ui-react": "5.30.2",
 		"yup": "1.7.1"
 	},
 	"devDependencies": {
@@ -54,11 +54,11 @@
 		"@hookform/devtools": "4.4.0",
 		"@next/eslint-plugin-next": "14.2.33",
 		"@trivago/prettier-plugin-sort-imports": "4.3.0",
-		"@types/node": "20.19.23",
-		"@types/react": "18.3.26",
+		"@types/node": "20.19.25",
+		"@types/react": "18.3.27",
 		"@typescript-eslint/eslint-plugin": "6.21.0",
 		"@typescript-eslint/parser": "6.21.0",
-		"autoprefixer": "10.4.21",
+		"autoprefixer": "10.4.22",
 		"eslint": "8.57.1",
 		"eslint-config-next": "14.2.33",
 		"eslint-config-prettier": "9.1.2",
@@ -70,7 +70,7 @@
 		"tailwindcss": "3.4.18",
 		"typescript": "5.9.3"
 	},
-	"packageManager": "yarn@4.10.3",
+	"packageManager": "yarn@4.11.0",
 	"apihero": {
 		"workerDirectory": "public"
 	}
