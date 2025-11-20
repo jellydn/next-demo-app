@@ -519,15 +519,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@giscus/react@npm:2.4.0":
-  version: 2.4.0
-  resolution: "@giscus/react@npm:2.4.0"
+"@giscus/react@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@giscus/react@npm:3.1.0"
   dependencies:
-    giscus: "npm:^1.4.0"
+    giscus: "npm:^1.6.0"
   peerDependencies:
-    react: ^16 || ^17 || ^18
-    react-dom: ^16 || ^17 || ^18
-  checksum: 10c0/a3bd55dcb137a47f7a21319232136b54405cf9f53976ebc6b556fc4206c73dbb49a441d8d182ea98b15b48fb1be863f03aa78695731637cbfc6aedfa214813ea
+    react: ^16 || ^17 || ^18 || ^19
+    react-dom: ^16 || ^17 || ^18 || ^19
+  checksum: 10c0/1347b3a729917a7c134dbf38ff4e15189d37447db3453dfbcb0a76b58f6044a32040d197a0744a093682bcefea14e27b8167dfe30f55d79f3f415054092104c9
   languageName: node
   linkType: hard
 
@@ -4725,7 +4725,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"giscus@npm:^1.4.0":
+"giscus@npm:^1.6.0":
   version: 1.6.0
   resolution: "giscus@npm:1.6.0"
   dependencies:
@@ -6423,7 +6423,7 @@ __metadata:
     "@apihero/browser": "npm:1.3.16"
     "@codechecks/build-size-watcher": "npm:0.1.0"
     "@codechecks/client": "npm:0.1.12"
-    "@giscus/react": "npm:2.4.0"
+    "@giscus/react": "npm:3.1.0"
     "@happykit/analytics": "npm:1.0.1"
     "@happykit/flags": "npm:2.0.7"
     "@hookform/devtools": "npm:4.4.0"
