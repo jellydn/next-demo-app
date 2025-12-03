@@ -1862,6 +1862,86 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typeschema/core@npm:0.14.0":
+  version: 0.14.0
+  resolution: "@typeschema/core@npm:0.14.0"
+  peerDependencies:
+    "@types/json-schema": ^7.0.15
+  peerDependenciesMeta:
+    "@types/json-schema":
+      optional: true
+  checksum: 10c0/736353e126ebdc82afe06de49e73a92cb911f309854c5afc76a94c6df5ca7fd30aec486c82d587948fcb2bc0f401a0adf6f75a54738612dbbe9bd71c9d6effba
+  languageName: node
+  linkType: hard
+
+"@typeschema/main@npm:0.14.1":
+  version: 0.14.1
+  resolution: "@typeschema/main@npm:0.14.1"
+  dependencies:
+    "@typeschema/core": "npm:0.14.0"
+  peerDependencies:
+    "@typeschema/arktype": 0.14.0
+    "@typeschema/class-validator": 0.3.0
+    "@typeschema/deepkit": 0.14.0
+    "@typeschema/effect": 0.14.0
+    "@typeschema/fastest-validator": 0.2.0
+    "@typeschema/function": 0.14.0
+    "@typeschema/io-ts": 0.14.0
+    "@typeschema/joi": 0.14.0
+    "@typeschema/json": 0.14.0
+    "@typeschema/ow": 0.14.0
+    "@typeschema/runtypes": 0.14.0
+    "@typeschema/superstruct": 0.14.0
+    "@typeschema/suretype": 0.2.0
+    "@typeschema/typebox": 0.14.0
+    "@typeschema/valibot": 0.14.0
+    "@typeschema/valita": 0.2.0
+    "@typeschema/vine": 0.2.0
+    "@typeschema/yup": 0.14.0
+    "@typeschema/zod": 0.14.0
+  peerDependenciesMeta:
+    "@typeschema/arktype":
+      optional: true
+    "@typeschema/class-validator":
+      optional: true
+    "@typeschema/deepkit":
+      optional: true
+    "@typeschema/effect":
+      optional: true
+    "@typeschema/fastest-validator":
+      optional: true
+    "@typeschema/function":
+      optional: true
+    "@typeschema/io-ts":
+      optional: true
+    "@typeschema/joi":
+      optional: true
+    "@typeschema/json":
+      optional: true
+    "@typeschema/ow":
+      optional: true
+    "@typeschema/runtypes":
+      optional: true
+    "@typeschema/superstruct":
+      optional: true
+    "@typeschema/suretype":
+      optional: true
+    "@typeschema/typebox":
+      optional: true
+    "@typeschema/valibot":
+      optional: true
+    "@typeschema/valita":
+      optional: true
+    "@typeschema/vine":
+      optional: true
+    "@typeschema/yup":
+      optional: true
+    "@typeschema/zod":
+      optional: true
+  checksum: 10c0/174b2a2e000e18010cf6616dea732f7f7af7b11e464ef3292f8f85f3b4ece1a52c7e9459f449c51ed5da00d95a5c7c45beadd5c0a222960231d1ad794ac97499
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:6.21.0":
   version: 6.21.0
   resolution: "@typescript-eslint/eslint-plugin@npm:6.21.0"
@@ -6446,7 +6526,7 @@ __metadata:
     lint-staged: "npm:15.5.2"
     next: "npm:14.2.33"
     next-swagger-doc: "npm:0.4.1"
-    next-validations: "npm:0.4.2"
+    next-validations: "npm:1.1.0"
     postcss: "npm:8.5.6"
     prettier: "npm:3.6.2"
     react: "npm:18.3.1"
@@ -6477,14 +6557,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-validations@npm:0.4.2":
-  version: 0.4.2
-  resolution: "next-validations@npm:0.4.2"
+"next-validations@npm:1.1.0":
+  version: 1.1.0
+  resolution: "next-validations@npm:1.1.0"
   dependencies:
-    type-fest: "npm:4.6.0"
+    "@typeschema/main": "npm:0.14.1"
   peerDependencies:
     next: "*"
-  checksum: 10c0/dd0e424229deb9fcf3949b6e3f7d301fd04d723910b91f033b53f100e75cf2be9ad8ae31c6a3e55db3880232f35bd36aa0d9323829d2278c0d2fefe6bcc3590f
+  checksum: 10c0/a012d6c59e741480fddf6a0f2a0ef75d7e0f566eedb7ce145785adcfeea52bf8314dda7fa79ffc34af43d5112b4a3283d7fa8ffc62957ea103c7b1387984ff12
   languageName: node
   linkType: hard
 
@@ -9077,13 +9157,6 @@ __metadata:
   dependencies:
     prelude-ls: "npm:^1.2.1"
   checksum: 10c0/7b3fd0ed43891e2080bf0c5c504b418fbb3e5c7b9708d3d015037ba2e6323a28152ec163bcb65212741fa5d2022e3075ac3c76440dbd344c9035f818e8ecee58
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:4.6.0":
-  version: 4.6.0
-  resolution: "type-fest@npm:4.6.0"
-  checksum: 10c0/6f34c3cdb95948821fdfc5a70481791de99b2ba840fad87ac3fbdf77941e556eaeaa03c2ed136b366436560702004af7687d59b03d4f181c28289db1af903179
   languageName: node
   linkType: hard
 
